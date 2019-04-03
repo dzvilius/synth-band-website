@@ -38,7 +38,7 @@ The cinematic 80s inspired band website for the fans of synth-pop music, so they
 
 Mindmap - [ v1](ux/Mindmap_v1.png)
 
-Wireframe - [v1](ux/#)
+Wireframe - [v1](ux/Wireframe_v1.pdf)
 
 Design - [v1](ux/#)
 
