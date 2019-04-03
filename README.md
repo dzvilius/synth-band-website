@@ -1,9 +1,5 @@
 # An 80s Inspired Band Website
 
-This repo contains the source code and documentation powering https://previewlink
-
-#### Overview
-
 A static (front-end only) website for an 80s inspired cinematic synth-pop band from California.
 
 To learn more about the goals of the band, please read the [Project Brief](ux/Project_Brief.md) document.
