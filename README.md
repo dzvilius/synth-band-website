@@ -36,7 +36,7 @@ The cinematic 80s inspired band website for the fans of synth-pop music, so they
 
 #### Supporting Materials
 
-Mindmap - [ v1](ux/#)
+Mindmap - [ v1](ux/Mindmap_v1.png)
 
 Wireframe - [v1](ux/#)
 
