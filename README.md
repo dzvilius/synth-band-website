@@ -16,10 +16,15 @@ The cinematic 80s inspired band website for the fans of synth-pop music, so they
 #### User Stories
 
 "As a fan, I want to listen to band music, so that I can hear the latest tracks."
+
 "As a fan, I want to view video clips, so that I can see the footage of recent tours."
+
 "As a fan, I want to view photos, so that I can see the cool moments of the band."
+
 "As a fan, I want to purchase music tracks, so that I can listen to them whenever I want."
+
 "As a fan, I want to check tour dates, so that I know when they are coming to town."
+
 "As a fan, I want to follow them, so that I can receive important updates fast."
 
 #### Objectives
