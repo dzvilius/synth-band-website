@@ -10,8 +10,7 @@ The cinematic 80s inspired band website for the fans of synth-pop music, so they
 
 #### Users
 
-- Current fans
-- New fans
+- Current and potential **Fans**
 
 #### User Stories
 
@@ -34,13 +33,17 @@ The cinematic 80s inspired band website for the fans of synth-pop music, so they
 - Promote music
 - Share tour dates
 
-#### Supporting Materials
+#### Supporting Materials (v1)
 
-Mindmap - [ v1](ux/Mindmap_v1.png)
+[Mindmap](ux/v1/Mindmap_v1.png)
 
-Wireframe - [v1](ux/Wireframe_v1.pdf)
+**Wireframes**
 
-Design - [v1](ux/#)
+[Home](ux/v1/Wireframes/Home.png) | [Tour Dates](ux/v1/Wireframes/Tour_Dates.png) | [Music](ux/v1/Wireframes/Music.png) | [Videos](ux/v1/Wireframes/Videos.png) | [Photos](ux/v1/Wireframes/Photos.png) | [Biography](ux/v1/Wireframes/Biography.png) | [All in One](ux/v1/Wireframes/Wireframe_v1.pdf)
+
+**Designs**
+
+...
 
 ## Features
 
