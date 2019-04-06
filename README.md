@@ -41,10 +41,10 @@ The cinematic 80s inspired band website for the fans of synth-pop music, so they
 
 - _Small:_
 
-  - [Home](ux/v1/Wireframes/Small/Home.png) / [Tour Dates](ux/v1/Wireframes/Small/Tour_Dates.png) / [Music](ux/v1/Wireframes/Small/Music.png) / [Videos](ux/v1/Wireframes/Small/Videos.png) / [Photos](ux/v1/Wireframes/Small/Photos.png) / [Biography](ux/v1/Wireframes/Small/Biography.png) / [All in One](ux/v1/Wireframes/Small/Wireframe_v1.pdf)
+  - [Home](ux/v1/Wireframes/Small/Home.png) / [Tour Dates](ux/v1/Wireframes/Small/Tour_Dates.png) / [Music](ux/v1/Wireframes/Small/Music.png) / [Videos](ux/v1/Wireframes/Small/Videos.png) / [Photos](ux/v1/Wireframes/Small/Photos.png) / [Biography](ux/v1/Wireframes/Small/Biography.png) / [All in One](ux/v1/Wireframes/Small/Wireframe_Small_v1.pdf)
 
 - _Medium:_
-  - [Home](ux/v1/Wireframes/Medium/Home.png) / [Tour Dates](ux/v1/Wireframes/Medium/Tour_Dates.png) / [Music](ux/v1/Wireframes/Medium/Music.png) / [Videos](ux/v1/Wireframes/Medium/Videos.png) / [Photos](ux/v1/Wireframes/Medium/Photos.png) / [Biography](ux/v1/Wireframes/Medium/Biography.png) / [All in One](ux/v1/Wireframes/Medium/Wireframe_v1.pdf)
+  - [Home](ux/v1/Wireframes/Medium/Home.png) / [Tour Dates](ux/v1/Wireframes/Medium/Tour_Dates.png) / [Music](ux/v1/Wireframes/Medium/Music.png) / [Videos](ux/v1/Wireframes/Medium/Videos.png) / [Photos](ux/v1/Wireframes/Medium/Photos.png) / [Biography](ux/v1/Wireframes/Medium/Biography.png) / [All in One](ux/v1/Wireframes/Medium/Wireframe_Medium_v1.pdf)
 
 **Designs**
 
