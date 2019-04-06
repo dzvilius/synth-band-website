@@ -43,7 +43,11 @@ The cinematic 80s inspired band website for the fans of synth-pop music, so they
 
 **Designs**
 
-...
+- *Small*
+  - [Home](ux/v1/Designs/Home_small.jpg) | Tour Dates | Music | Videos| Photos | Biography
+
+- *Medium*
+  - Home | Tour Dates | Music | Videos| Photos | Biography
 
 ## Features
 
