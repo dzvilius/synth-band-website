@@ -33,21 +33,27 @@ The cinematic 80s inspired band website for the fans of synth-pop music, so they
 - Promote music
 - Share tour dates
 
-#### Supporting Materials (v1)
+#### Supporting Materials
 
 [Mindmap](ux/v1/Mindmap_v1.png)
 
 **Wireframes**
 
-[Home](ux/v1/Wireframes/Home.png) | [Tour Dates](ux/v1/Wireframes/Tour_Dates.png) | [Music](ux/v1/Wireframes/Music.png) | [Videos](ux/v1/Wireframes/Videos.png) | [Photos](ux/v1/Wireframes/Photos.png) | [Biography](ux/v1/Wireframes/Biography.png) | [All in One](ux/v1/Wireframes/Wireframe_v1.pdf)
+- _Small:_
+
+  - [Home](ux/v1/Wireframes/Small/Home.png) / [Tour Dates](ux/v1/Wireframes/Small/Tour_Dates.png) / [Music](ux/v1/Wireframes/Small/Music.png) / [Videos](ux/v1/Wireframes/Small/Videos.png) / [Photos](ux/v1/Wireframes/Small/Photos.png) / [Biography](ux/v1/Wireframes/Small/Biography.png) / [All in One](ux/v1/Wireframes/Small/Wireframe_v1.pdf)
+
+- _Medium:_
+  - [Home](ux/v1/Wireframes/Medium/Home.png) / [Tour Dates](ux/v1/Wireframes/Medium/Tour_Dates.png) / [Music](ux/v1/Wireframes/Medium/Music.png) / [Videos](ux/v1/Wireframes/Medium/Videos.png) / [Photos](ux/v1/Wireframes/Medium/Photos.png) / [Biography](ux/v1/Wireframes/Medium/Biography.png) / [All in One](ux/v1/Wireframes/Medium/Wireframe_v1.pdf)
 
 **Designs**
 
-- *Small*
-  - [Home](ux/v1/Designs/Home_small.jpg) | Tour Dates | Music | Videos| Photos | Biography
+- _Small:_
 
-- *Medium*
-  - Home | Tour Dates | Music | Videos| Photos | Biography
+  - [Home](ux/v1/Designs/Small/Home.jpg) / Tour Dates / Music / Videos / Photos / Biography
+
+- _Medium:_
+  - Home / Tour Dates / Music / Videos / Photos / Biography
 
 ## Features
 
