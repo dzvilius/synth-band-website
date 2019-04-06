@@ -8,11 +8,18 @@ The cinematic 80s inspired band website for the fans of synth-pop music, so they
 
 To learn more about the goals of the band, please read the [Project Brief](ux/Project_Brief.md) document.
 
+### Objectives
+
+- Increase online visibility
+- Increase fanbase
+- Promote music
+- Share tour dates
+
 #### Users
 
 - Current and potential **Fans**
 
-#### User Stories
+#### Stories
 
 "As a fan, I want to listen to band music, so that I can hear the latest tracks."
 
@@ -26,23 +33,19 @@ To learn more about the goals of the band, please read the [Project Brief](ux/Pr
 
 "As a fan, I want to follow them, so that I can receive important updates fast."
 
-#### Objectives
-
-- Increase online visibility
-- Increase fanbase
-- Promote music
-- Share tour dates
-
 ## Features
 
+- Mobile-first
 - Responsive
-- Semantic HTML
+- Semantic
 - Navigation
-- SoundCloud integration
-- YouTube integration
-- Photo gallery
+- Events
+- Gallery
+- Bandcamp
+- SoundCloud
+- YouTube
 
-Features to be implemented in the future:
+*Features to be implemented in the future:*
 
 - Instagram feed
 
@@ -72,10 +75,10 @@ To learn more about the information architecture and the flow of this applicatio
 
 A list of all of the languages, frameworks and libraries used to construct this project.
 
-- Google Fonts
 - HTML5
 - CSS3
 - Bulma CSS
+- Google Fonts
 - SoundCloud
 - YouTube
 - Bandcamp
