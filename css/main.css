@@ -327,3 +327,14 @@ template {
 }
 
 /* Custom Styles */
+.logo {
+  font-family: 'Share', cursive;
+  font-size: 42px;
+  color: #fcfcfc;
+  text-shadow: 3px 2px 2px #9f1550;
+}
+
+.logo:hover {
+  text-decoration: none;
+  color: #fcfcfc;
+}
