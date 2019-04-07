@@ -1,4 +1,4 @@
-# An 80s Inspired Band Website
+# A Synth-Pop Band Website
 
 A static (front-end only) website for an 80s inspired cinematic synth-pop band from California.
 
@@ -45,7 +45,7 @@ To learn more about the goals of the band, please read the [Project Brief](ux/Pr
 - SoundCloud
 - YouTube
 
-*Features to be implemented in the future:*
+_Features to be implemented in the future:_
 
 - Instagram feed
 
