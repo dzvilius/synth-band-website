@@ -20,26 +20,27 @@ $colour-jacaranda: #180113;
 
 // ========================================================================== //
 // BOOTSTRAP THEME
-// https://getbootstrap.com/docs/4.3/getting-started/theming/
 // ========================================================================== //
 
-/*
-  Bootstrap v4.3.1 (https://getbootstrap.com/)
-*/
+/* Bootstrap v4.3.1 (https://getbootstrap.com/) */
+// https://getbootstrap.com/docs/4.3/getting-started/theming/
 
 // Variables
 $body-bg: $colour-jacaranda;
 
-// Parts
-@import "../node_modules/bootstrap/scss/functions"; // Required
-@import "../node_modules/bootstrap/scss/variables"; // Required
-@import "../node_modules/bootstrap/scss/mixins"; // Required
+// Required parts
+@import '../node_modules/bootstrap/scss/functions';
+@import '../node_modules/bootstrap/scss/variables';
+@import '../node_modules/bootstrap/scss/mixins';
 
-@import "../node_modules/bootstrap/scss/reboot";
+// Optional parts
+@import '../node_modules/bootstrap/scss/reboot';
 //@import "../node_modules/bootstrap/scss/type";
 //@import "../node_modules/bootstrap/scss/images";
 //@import "../node_modules/bootstrap/scss/grid";
 
-/*
-  Custom Styles
-*/
+// ========================================================================== //
+// MY STYLES
+// ========================================================================== //
+
+/* Custom Styles */

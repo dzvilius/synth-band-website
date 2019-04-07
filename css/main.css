@@ -3,9 +3,7 @@
   Author: Vilius Dzemyda
   Built with Sass - http://sass-lang.com/
 */
-/*
-  Bootstrap v4.3.1 (https://getbootstrap.com/)
-*/
+/* Bootstrap v4.3.1 (https://getbootstrap.com/) */
 *,
 *::before,
 *::after {
@@ -328,6 +326,4 @@ template {
   display: none !important;
 }
 
-/*
-  Custom Styles
-*/
+/* Custom Styles */
