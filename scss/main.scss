@@ -1,0 +1,45 @@
+/*
+  Synth-Pop Band Website v1.0.0
+  Author: Vilius Dzemyda
+  Built with Sass - http://sass-lang.com/
+*/
+
+// ========================================================================== //
+// COLOUR SCHEME
+// ========================================================================== //
+
+$colour-disco-one: #9f1550;
+$colour-disco-two: #821860;
+$colour-tawny-port: #681c67;
+$colour-jacarta: #492469;
+$colour-meteorite: #351a61;
+$colour-violet: #190524;
+$colour-marigold-yellow: #fbe274;
+$colour-violet-red: #ee3377;
+$colour-jacaranda: #180113;
+
+// ========================================================================== //
+// BOOTSTRAP THEME
+// https://getbootstrap.com/docs/4.3/getting-started/theming/
+// ========================================================================== //
+
+/*
+  Bootstrap v4.3.1 (https://getbootstrap.com/)
+*/
+
+// Variables
+$body-bg: $colour-jacaranda;
+
+// Parts
+@import "../node_modules/bootstrap/scss/functions"; // Required
+@import "../node_modules/bootstrap/scss/variables"; // Required
+@import "../node_modules/bootstrap/scss/mixins"; // Required
+
+@import "../node_modules/bootstrap/scss/reboot";
+//@import "../node_modules/bootstrap/scss/type";
+//@import "../node_modules/bootstrap/scss/images";
+//@import "../node_modules/bootstrap/scss/grid";
+
+/*
+  Custom Styles
+*/

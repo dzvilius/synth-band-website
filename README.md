@@ -77,11 +77,27 @@ A list of all of the languages, frameworks and libraries used to construct this 
 
 - HTML5
 - CSS3
-- Bulma CSS
+- Bootstrap CSS
 - Google Fonts
-- SoundCloud
-- YouTube
-- Bandcamp
+- Node & Node Package Management
+- Sass
+- Prettier
+
+## Links
+
+#### Development
+
+- https://nodejs.org/en/download/
+
+- https://sass-lang.com/
+
+- https://itnext.io/setting-up-a-sass-build-process-aa9fd92fa585
+
+#### Bootstrap theming
+
+- https://getbootstrap.com/docs/4.3/getting-started/theming/
+
+- https://uxplanet.org/how-to-customize-bootstrap-b8078a011203
 
 ## Credits
 
