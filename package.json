@@ -5,7 +5,7 @@
   "author": "Vilius Dzemyda <hello@viliusdzemyda.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "node-sass --output-style expanded scss/main.scss css/main.css --watch"
+    "sass": "node-sass --output-style expanded scss/main.scss css/main.css --watch"
   },
   "dependencies": {},
   "devDependencies": {

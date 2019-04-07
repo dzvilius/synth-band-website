@@ -1,4 +1,4 @@
-# A Synth-Pop Band Website
+# Synth-Pop Band Website
 
 A static (front-end only) website for an 80s inspired cinematic synth-pop band from California.
 
@@ -85,7 +85,16 @@ A list of all of the languages, frameworks and libraries used to construct this 
 
 ## Deployment
 
-To compile Sass files you need to download and instal Node from: https://nodejs.org/en/download/
+Before deploying the site to a hosting provider, you need to compile the "main.scss" file.
+
+Install Node from: https://nodejs.org/en/download/ and then run:
+
+```
+$ npm install
+$ npm run sass
+```
+
+Bootstrap will be imported and single stylesheet (main.css) will be generated at "css" directory.
 
 ## Credits
 
@@ -113,12 +122,10 @@ Inspiration for the style of this site:
 
 - https://www.goodfon.com/wallpaper/synth-retrowave-synthwave-fon-new-retro-wave-sintveiv-ret-16.html
 
-Tips and tricks for customising Bootstrap with Sass: 
+Tips and tricks for customising Bootstrap with Sass:
 
 - https://itnext.io/setting-up-a-sass-build-process-aa9fd92fa585
 
 - https://getbootstrap.com/docs/4.3/getting-started/theming/
 
 - https://uxplanet.org/how-to-customize-bootstrap-b8078a011203
-
-
