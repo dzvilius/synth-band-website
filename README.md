@@ -75,29 +75,17 @@ To learn more about the information architecture and the flow of this applicatio
 
 A list of all of the languages, frameworks and libraries used to construct this project.
 
-- HTML5
-- CSS3
-- Bootstrap CSS
-- Google Fonts
-- Node & Node Package Management
-- Sass
-- Prettier
+- HTML & CSS
+- Bootstrap CSS (https://getbootstrap.com/)
+- Google Fonts (https://fonts.google.com/)
+- Node (https://nodejs.org/)
+- npm (https://www.npmjs.com/)
+- Sass (https://sass-lang.com/)
+- Prettier (https://prettier.io/)
 
-## Links
+## Deployment
 
-#### Development
-
-- https://nodejs.org/en/download/
-
-- https://sass-lang.com/
-
-- https://itnext.io/setting-up-a-sass-build-process-aa9fd92fa585
-
-#### Bootstrap theming
-
-- https://getbootstrap.com/docs/4.3/getting-started/theming/
-
-- https://uxplanet.org/how-to-customize-bootstrap-b8078a011203
+To compile Sass files you need to download and instal Node from: https://nodejs.org/en/download/
 
 ## Credits
 
@@ -121,4 +109,16 @@ The videos used in this site were obtained from:
 
 #### Acknowledgements
 
-I received inspiration for the style of this site from this image: https://www.goodfon.com/wallpaper/synth-retrowave-synthwave-fon-new-retro-wave-sintveiv-ret-16.html
+Inspiration for the style of this site:
+
+- https://www.goodfon.com/wallpaper/synth-retrowave-synthwave-fon-new-retro-wave-sintveiv-ret-16.html
+
+Tips and tricks for customising Bootstrap with Sass: 
+
+- https://itnext.io/setting-up-a-sass-build-process-aa9fd92fa585
+
+- https://getbootstrap.com/docs/4.3/getting-started/theming/
+
+- https://uxplanet.org/how-to-customize-bootstrap-b8078a011203
+
+
