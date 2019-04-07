@@ -55,21 +55,30 @@ To learn more about the information architecture and the flow of this applicatio
 
 ## Skeleton
 
-- _Small:_
+#### Wireframes
 
-  - [Home](ux/v1/Wireframes/Small/Home.png) / [Tour Dates](ux/v1/Wireframes/Small/Tour_Dates.png) / [Music](ux/v1/Wireframes/Small/Music.png) / [Videos](ux/v1/Wireframes/Small/Videos.png) / [Photos](ux/v1/Wireframes/Small/Photos.png) / [Biography](ux/v1/Wireframes/Small/Biography.png) / [All in One](ux/v1/Wireframes/Small/Wireframe_Small_v1.pdf)
+_Small:_ [Home](ux/v1/Wireframes/Small/Home.png) / [Tour Dates](ux/v1/Wireframes/Small/Tour_Dates.png) / [Music](ux/v1/Wireframes/Small/Music.png) / [Videos](ux/v1/Wireframes/Small/Videos.png) / [Photos](ux/v1/Wireframes/Small/Photos.png) / [Biography](ux/v1/Wireframes/Small/Biography.png) / [All in One](ux/v1/Wireframes/Small/Wireframe_Small_v1.pdf)
 
-- _Medium:_
-  - [Home](ux/v1/Wireframes/Medium/Home.png) / [Tour Dates](ux/v1/Wireframes/Medium/Tour_Dates.png) / [Music](ux/v1/Wireframes/Medium/Music.png) / [Videos](ux/v1/Wireframes/Medium/Videos.png) / [Photos](ux/v1/Wireframes/Medium/Photos.png) / [Biography](ux/v1/Wireframes/Medium/Biography.png) / [All in One](ux/v1/Wireframes/Medium/Wireframe_Medium_v1.pdf)
+_Medium:_ [Home](ux/v1/Wireframes/Medium/Home.png) / [Tour Dates](ux/v1/Wireframes/Medium/Tour_Dates.png) / [Music](ux/v1/Wireframes/Medium/Music.png) / [Videos](ux/v1/Wireframes/Medium/Videos.png) / [Photos](ux/v1/Wireframes/Medium/Photos.png) / [Biography](ux/v1/Wireframes/Medium/Biography.png) / [All in One](ux/v1/Wireframes/Medium/Wireframe_Medium_v1.pdf)
 
 ## Surface
 
-- _Small:_
+#### Fonts
 
-  - [Home](ux/v1/Designs/Small/Home.jpg) / Tour Dates / Music / Videos / Photos / Biography
+Roboto  (https://fonts.google.com/specimen/Roboto)
+Roboto Condensed (https://fonts.google.com/specimen/Roboto+Condensed)
+Share (https://fonts.google.com/specimen/Share)
+Racing Sans One (https://fonts.google.com/specimen/Racing+Sans+One)
 
-- _Medium:_
-  - Home / Tour Dates / Music / Videos / Photos / Biography
+#### Colours
+
+![alt text](ux/v1/Designs/Colours.jpg)
+
+#### Design Mockups
+
+_Small:_ [Home](ux/v1/Designs/Small/Home.jpg) / Tour Dates / Music / Videos / Photos / Biography
+
+_Medium:_ Home / Tour Dates / Music / Videos / Photos / Biography
 
 ## Tech
 
