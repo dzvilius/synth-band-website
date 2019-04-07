@@ -1,0 +1,13 @@
+{
+  "name": "ci-project-one",
+  "description": "A static (front-end only) website for an 80s inspired cinematic synth-pop band from California.",
+  "version": "1.0.0",
+  "author": "Vilius Dzemyda <hello@viliusdzemyda.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/viliusdev/ci-project-one"
+  }
+}
