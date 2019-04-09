@@ -47,6 +47,11 @@ $body-bg: $colour-jacaranda;
 
 /* Custom Styles */
 
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .SiteNav {
   background: $colour-violet;
 }
@@ -63,8 +68,8 @@ $body-bg: $colour-jacaranda;
   text-shadow: 3px 2px 2px $colour-disco-one;
 
   // https://stackoverflow.com/questions/17864742/how-to-apply-font-anti-alias-effects-in-css
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  // -webkit-font-smoothing: antialiased;
+  // -moz-osx-font-smoothing: grayscale;
 
   &:hover {
     text-decoration: none;
@@ -131,11 +136,65 @@ $body-bg: $colour-jacaranda;
   }
 
   @media screen and (min-width: 1024px) {
-    height: 850px;
-    //background-position: 85% bottom;
+    //height: 850px;
   }
 }
 
-.temp {
-  height: 1000px;
+.Title {
+  position: relative;
+  max-width: 400px;
+  margin: auto;
+  //background: #fcfcfc;
+
+  h3 {
+    position: relative;
+    z-index: 2;
+  }
+}
+
+.Title__neons {
+  position: absolute;
+  //background: blue;
+  width: 30%;
+  top: 50%;
+  margin-top: -9px;
+  height: 18px;
+  z-index: 1;
+
+  .Neon {
+    position: relative;
+  }
+}
+
+.Title__neons--left {
+  left: 0;
+}
+
+.Title__neons--right {
+  right: 0;
+}
+
+.TitleNeon-1 {
+  left: 6px;
+}
+
+.TitleNeon-3 {
+  right: 6px;
+}
+
+.SiteMain {
+  text-align: center;
+  color: #fcfcfc;
+  padding: 24px;
+  min-height: 800px;
+
+  h3 {
+    font-family: 'Racing Sans One', 'Helvetica Neue', Helvetica, Arial,
+      sans-serif;
+    text-shadow: 2px 2px 4px $colour-disco-one;
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: normal;
+  }
 }

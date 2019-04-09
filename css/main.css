@@ -355,6 +355,11 @@ template {
 }
 
 /* Custom Styles */
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .SiteNav {
   background: #190524;
 }
@@ -369,8 +374,6 @@ template {
   font-style: italic;
   color: #fcfcfc;
   text-shadow: 3px 2px 2px #9f1550;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 .Logo:hover {
@@ -439,12 +442,58 @@ template {
   }
 }
 
-@media screen and (min-width: 1024px) {
-  .FullWidthHeader {
-    height: 850px;
-  }
+.Title {
+  position: relative;
+  max-width: 400px;
+  margin: auto;
 }
 
-.temp {
-  height: 1000px;
+.Title h3 {
+  position: relative;
+  z-index: 2;
+}
+
+.Title__neons {
+  position: absolute;
+  width: 30%;
+  top: 50%;
+  margin-top: -9px;
+  height: 18px;
+  z-index: 1;
+}
+
+.Title__neons .Neon {
+  position: relative;
+}
+
+.Title__neons--left {
+  left: 0;
+}
+
+.Title__neons--right {
+  right: 0;
+}
+
+.TitleNeon-1 {
+  left: 6px;
+}
+
+.TitleNeon-3 {
+  right: 6px;
+}
+
+.SiteMain {
+  text-align: center;
+  color: #fcfcfc;
+  padding: 24px;
+  min-height: 800px;
+}
+
+.SiteMain h3 {
+  font-family: 'Racing Sans One', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-shadow: 2px 2px 4px #9f1550;
+  font-size: 28px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: normal;
 }
