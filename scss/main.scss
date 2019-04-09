@@ -47,6 +47,14 @@ $body-bg: $colour-jacaranda;
 
 /* Custom Styles */
 
+.SiteNav {
+  background: $colour-violet;
+}
+
+.SiteNav__logo {
+  padding: 12px 24px;
+}
+
 .Logo {
   font-family: 'Share', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 42px;
@@ -64,10 +72,47 @@ $body-bg: $colour-jacaranda;
   }
 }
 
-.SiteNav {
-  background: $colour-violet;
+.Neon {
+  margin-bottom: 6px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
-.SiteNav__logo {
-  padding: 12px 24px;
+.Neon--size-1 {
+  height: 1px;
+}
+
+.Neon--size-2 {
+  height: 2px;
+}
+
+.Neon--size-3 {
+  height: 3px;
+}
+
+.Neon--colour-1 {
+  background: $colour-disco-one;
+  box-shadow: 0px 2px 2px 0px rgba($colour-disco-one, 0.5);
+}
+
+.Neon--colour-2 {
+  background: $colour-disco-two;
+  box-shadow: 0px 2px 2px 0px rgba($colour-disco-two, 0.5);
+}
+
+.Neon--colour-3 {
+  background: $colour-tawny-port;
+  box-shadow: 0px 2px 2px 0px rgba($colour-tawny-port, 0.5);
+}
+
+.Neon--colour-4 {
+  background: $colour-jacarta;
+  box-shadow: 0px 2px 2px 0px rgba($colour-jacarta, 0.5);
+}
+
+.Neon--colour-5 {
+  background: $colour-meteorite;
+  box-shadow: 0px 2px 2px 0px rgba($colour-meteorite, 0.5);
 }
