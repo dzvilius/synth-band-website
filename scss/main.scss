@@ -99,33 +99,33 @@ html {
 
 .Neon--colour-1 {
   background: $colour-disco-one;
-  box-shadow: 0px 2px 2px 0px rgba($colour-disco-one, 0.5);
+  box-shadow: 1px 2px 3px 0px rgba($colour-disco-one, 0.8);
 }
 
 .Neon--colour-2 {
   background: $colour-disco-two;
-  box-shadow: 0px 2px 2px 0px rgba($colour-disco-two, 0.5);
+  box-shadow: 1px 2px 3px 0px rgba($colour-disco-two, 0.9);
 }
 
 .Neon--colour-3 {
   background: $colour-tawny-port;
-  box-shadow: 0px 2px 2px 0px rgba($colour-tawny-port, 0.5);
+  box-shadow: 1px 2px 3px 0px rgba($colour-tawny-port, 0.9);
 }
 
 .Neon--colour-4 {
   background: $colour-jacarta;
-  box-shadow: 0px 2px 2px 0px rgba($colour-jacarta, 0.5);
+  box-shadow: 1px 2px 3px 0px rgba($colour-jacarta, 0.9);
 }
 
 .Neon--colour-5 {
   background: $colour-meteorite;
-  box-shadow: 0px 2px 2px 0px rgba($colour-meteorite, 0.5);
+  box-shadow: 1px 2px 3px 0px rgba($colour-meteorite, 0.9);
 }
 
 .FullWidthHeader {
   height: 450px;
   background: url('../img/hero.jpg');
-  background-size: auto 120%;
+  background-size: auto 115%;
   background-position: 85% -62px;
   background-repeat: no-repeat;
 
