@@ -31,14 +31,14 @@ $colour-meteorite: #351a61;
 $body-bg: $colour-jacaranda;
 
 // Required parts
-@import '../node_modules/bootstrap/scss/functions';
-@import '../node_modules/bootstrap/scss/variables';
-@import '../node_modules/bootstrap/scss/mixins';
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
 
 // Optional parts
-@import '../node_modules/bootstrap/scss/reboot';
+@import "../node_modules/bootstrap/scss/reboot";
 //@import '../node_modules/bootstrap/scss/type';
-@import '../node_modules/bootstrap/scss/images';
+@import "../node_modules/bootstrap/scss/images";
 //@import '../node_modules/bootstrap/scss/grid';
 
 // ========================================================================== //
@@ -52,8 +52,15 @@ html {
   -moz-osx-font-smoothing: grayscale;
 }
 
+body {
+  background: $colour-jacaranda url("../img/hero.jpg") top center no-repeat;
+  background-size: 100% 1000px;
+}
+
 .SiteNav {
   background: $colour-violet;
+  position: relative;
+  z-index: 10;
 }
 
 .SiteNav__logo {
@@ -61,7 +68,7 @@ html {
 }
 
 .Logo {
-  font-family: 'Share', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Share", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 42px;
   font-style: italic;
   color: $colour-alabaster;
@@ -122,12 +129,26 @@ html {
   box-shadow: 1px 2px 3px 0px rgba($colour-meteorite, 0.9);
 }
 
+.Header {
+  position: relative;
+  z-index: 1;
+}
+
+.Header__neons {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
 .FullWidthHeader {
   height: 450px;
-  background: url('../img/hero.jpg');
-  background-size: auto 115%;
-  background-position: 85% -62px;
+  box-shadow: 3px 2px 2px $colour-disco-one;
+  background-color: $colour-jacaranda;
+  background-image: url("../img/hero.jpg");
+  background-size: auto 100%;
+  background-position: 85% top;
   background-repeat: no-repeat;
+  box-shadow: 0px 0px 80px 0px rgba($colour-tawny-port, 0.5);
 
   @media screen and (min-width: 769px) {
     height: 650px;
@@ -136,7 +157,9 @@ html {
   }
 
   @media screen and (min-width: 1024px) {
-    //height: 850px;
+    height: 850px;
+    max-width: 1600px;
+    margin: auto;
   }
 }
 
@@ -144,7 +167,7 @@ html {
   position: relative;
   max-width: 400px;
   margin: auto;
-  //background: #fcfcfc;
+  background: $colour-jacaranda;
 
   h3 {
     position: relative;
@@ -154,7 +177,6 @@ html {
 
 .Title__neons {
   position: absolute;
-  //background: blue;
   width: 30%;
   top: 50%;
   margin-top: -9px;
@@ -183,18 +205,28 @@ html {
 }
 
 .SiteMain {
-  text-align: center;
-  color: #fcfcfc;
-  padding: 24px;
-  min-height: 800px;
+  max-width: 1600px;
+  margin: auto;
+  position: relative;
+  z-index: 2;
+  background: $colour-jacaranda;
 
   h3 {
-    font-family: 'Racing Sans One', 'Helvetica Neue', Helvetica, Arial,
+    font-family: "Racing Sans One", "Helvetica Neue", Helvetica, Arial,
       sans-serif;
     text-shadow: 2px 2px 4px $colour-disco-one;
     font-size: 28px;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: normal;
+    text-align: center;
+    color: $colour-alabaster;
   }
+}
+
+.TourDates {
+  background: $colour-jacaranda;
+  position: relative;
+  z-index: 1;
+  min-height: 800px;
 }

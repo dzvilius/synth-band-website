@@ -360,8 +360,15 @@ html {
   -moz-osx-font-smoothing: grayscale;
 }
 
+body {
+  background: #180113 url("../img/hero.jpg") top center no-repeat;
+  background-size: 100% 1000px;
+}
+
 .SiteNav {
   background: #190524;
+  position: relative;
+  z-index: 10;
 }
 
 .SiteNav__logo {
@@ -369,7 +376,7 @@ html {
 }
 
 .Logo {
-  font-family: 'Share', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Share", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 42px;
   font-style: italic;
   color: #fcfcfc;
@@ -426,12 +433,26 @@ html {
   box-shadow: 1px 2px 3px 0px rgba(53, 26, 97, 0.9);
 }
 
+.Header {
+  position: relative;
+  z-index: 1;
+}
+
+.Header__neons {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
 .FullWidthHeader {
   height: 450px;
-  background: url("../img/hero.jpg");
-  background-size: auto 115%;
-  background-position: 85% -62px;
+  box-shadow: 3px 2px 2px #9f1550;
+  background-color: #180113;
+  background-image: url("../img/hero.jpg");
+  background-size: auto 100%;
+  background-position: 85% top;
   background-repeat: no-repeat;
+  box-shadow: 0px 0px 80px 0px rgba(104, 28, 103, 0.5);
 }
 
 @media screen and (min-width: 769px) {
@@ -442,10 +463,19 @@ html {
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .FullWidthHeader {
+    height: 850px;
+    max-width: 1600px;
+    margin: auto;
+  }
+}
+
 .Title {
   position: relative;
   max-width: 400px;
   margin: auto;
+  background: #180113;
 }
 
 .Title h3 {
@@ -483,17 +513,27 @@ html {
 }
 
 .SiteMain {
-  text-align: center;
-  color: #fcfcfc;
-  padding: 24px;
-  min-height: 800px;
+  max-width: 1600px;
+  margin: auto;
+  position: relative;
+  z-index: 2;
+  background: #180113;
 }
 
 .SiteMain h3 {
-  font-family: 'Racing Sans One', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Racing Sans One", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-shadow: 2px 2px 4px #9f1550;
   font-size: 28px;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: normal;
+  text-align: center;
+  color: #fcfcfc;
+}
+
+.TourDates {
+  background: #180113;
+  position: relative;
+  z-index: 1;
+  min-height: 800px;
 }
