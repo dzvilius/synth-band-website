@@ -37,9 +37,9 @@ $body-bg: $colour-jacaranda;
 
 // Optional parts
 @import '../node_modules/bootstrap/scss/reboot';
-//@import "../node_modules/bootstrap/scss/type";
+//@import '../node_modules/bootstrap/scss/type';
 @import '../node_modules/bootstrap/scss/images';
-//@import "../node_modules/bootstrap/scss/grid";
+//@import '../node_modules/bootstrap/scss/grid';
 
 // ========================================================================== //
 // MY STYLES
@@ -47,16 +47,27 @@ $body-bg: $colour-jacaranda;
 
 /* Custom Styles */
 
-// Site Logo
-
-.logo {
-  font-family: 'Share', cursive;
+.Logo {
+  font-family: 'Share', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 42px;
+  font-style: italic;
   color: $colour-alabaster;
   text-shadow: 3px 2px 2px $colour-disco-one;
+
+  // https://stackoverflow.com/questions/17864742/how-to-apply-font-anti-alias-effects-in-css
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 
   &:hover {
     text-decoration: none;
     color: $colour-alabaster;
   }
+}
+
+.SiteNav {
+  background: $colour-violet;
+}
+
+.SiteNav__logo {
+  padding: 12px 24px;
 }

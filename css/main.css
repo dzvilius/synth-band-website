@@ -355,14 +355,25 @@ template {
 }
 
 /* Custom Styles */
-.logo {
-  font-family: 'Share', cursive;
+.Logo {
+  font-family: 'Share', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 42px;
+  font-style: italic;
   color: #fcfcfc;
   text-shadow: 3px 2px 2px #9f1550;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.logo:hover {
+.Logo:hover {
   text-decoration: none;
   color: #fcfcfc;
+}
+
+.SiteNav {
+  background: #190524;
+}
+
+.SiteNav__logo {
+  padding: 12px 24px;
 }
