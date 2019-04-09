@@ -134,7 +134,7 @@ Inspiration for the style of this site:
 
 - https://www.goodfon.com/wallpaper/synth-retrowave-synthwave-fon-new-retro-wave-sintveiv-ret-16.html
 
-Tips and tricks for customising Bootstrap with Sass:
+Help customising Bootstrap with Sass:
 
 - https://itnext.io/setting-up-a-sass-build-process-aa9fd92fa585
 
