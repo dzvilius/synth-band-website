@@ -2288,6 +2288,14 @@ html {
   padding: 68px 0;
 }
 
+.Video--home {
+  padding: 68px 0;
+}
+
+.Video--inner {
+  padding: 48px 0;
+}
+
 .Video__iframe {
   position: relative;
   overflow: hidden;
@@ -2304,6 +2312,10 @@ html {
   height: 100%;
   max-width: 100%;
   border: 0;
+}
+
+.YouTube--inner {
+  margin-bottom: 24px;
 }
 
 .Video__neons:last-child {
