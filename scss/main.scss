@@ -71,9 +71,9 @@ body {
 .SiteContainer {
   margin: 0 auto;
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1600px) {
     max-width: 1600px;
-    box-shadow: 0px 0px 80px 0px rgba($colour-tawny-port, 0.5);
+    box-shadow: 0px -80px 60px 0px rgba($colour-tawny-port, 0.6);
   }
 }
 
@@ -443,5 +443,20 @@ body {
     color: $colour-violet-red;
     background: $colour-alabaster;
     box-shadow: 1px 2px 4px 0px rgba($colour-violet-red, 0.8);
+  }
+}
+
+/* SITE FOOTER ============================================================== */
+
+.SiteFooter {
+  padding: 48px 0 24px;
+}
+
+.SiteFooter__logo {
+  text-align: center;
+
+  .Logo {
+    font-size: 24px;
+    text-shadow: 2px 2px 2px $colour-disco-one;
   }
 }
