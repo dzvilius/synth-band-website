@@ -1936,17 +1936,6 @@ html {
   color: #fcfcfc;
 }
 
-/* SITE NAV ================================================================= */
-.SiteNav {
-  background: #190524;
-  position: relative;
-  z-index: 10;
-}
-
-.SiteNav__logo {
-  padding: 12px 24px;
-}
-
 /* LOGO ===================================================================== */
 .Logo {
   font-family: "Share", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -1961,48 +1950,15 @@ html {
   color: #fcfcfc;
 }
 
-/* HEADER =================================================================== */
-.Header {
+/* SITE NAV ================================================================= */
+.SiteNav {
+  background: #190524;
   position: relative;
-  z-index: 1;
+  z-index: 10;
 }
 
-.Header__neons {
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
-
-.FullWidthHeader {
-  height: 450px;
-  margin: 0 auto;
-  background-color: #180113;
-  background-image: url("../img/hero.jpg");
-  background-size: auto 100%;
-  background-position: 85% top;
-  background-repeat: no-repeat;
-}
-
-@media screen and (min-width: 769px) {
-  .FullWidthHeader {
-    height: 550px;
-    background-size: cover;
-    background-position: 85% bottom;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  .FullWidthHeader {
-    height: 650px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .FullWidthHeader {
-    height: 900px;
-    max-width: 1600px;
-    box-shadow: 0px 0px 80px 0px rgba(104, 28, 103, 0.5);
-  }
+.SiteNav__logo {
+  padding: 12px 24px;
 }
 
 /* TITLE ==================================================================== */
@@ -2056,6 +2012,96 @@ html {
   right: 6px;
 }
 
+/* NEON ===================================================================== */
+.Neon {
+  margin-bottom: 6px;
+}
+
+.Neon:last-child {
+  margin-bottom: 0;
+}
+
+.Neon--size-1 {
+  height: 1px;
+}
+
+.Neon--size-2 {
+  height: 2px;
+}
+
+.Neon--size-3 {
+  height: 3px;
+}
+
+.Neon--colour-1 {
+  background: #9f1550;
+  box-shadow: 1px 1px 3px 0px rgba(159, 21, 80, 0.8);
+}
+
+.Neon--colour-2 {
+  background: #821860;
+  box-shadow: 1px 1px 3px 0px rgba(130, 24, 96, 0.9);
+}
+
+.Neon--colour-3 {
+  background: #681c67;
+  box-shadow: 1px 1px 3px 0px rgba(104, 28, 103, 0.9);
+}
+
+.Neon--colour-4 {
+  background: #492469;
+  box-shadow: 1px 1px 3px 0px rgba(73, 36, 105, 0.9);
+}
+
+.Neon--colour-5 {
+  background: #351a61;
+  box-shadow: 1px 1px 3px 0px rgba(53, 26, 97, 0.9);
+}
+
+/* HEADER =================================================================== */
+.Header {
+  position: relative;
+  z-index: 1;
+}
+
+.Header__neons {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.FullWidthHeader {
+  height: 450px;
+  margin: 0 auto;
+  background-color: #180113;
+  background-image: url("../img/hero.jpg");
+  background-size: auto 100%;
+  background-position: 85% top;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 769px) {
+  .FullWidthHeader {
+    height: 550px;
+    background-size: cover;
+    background-position: 85% bottom;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .FullWidthHeader {
+    height: 650px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .FullWidthHeader {
+    height: 900px;
+    max-width: 1600px;
+    box-shadow: 0px 0px 80px 0px rgba(104, 28, 103, 0.5);
+  }
+}
+
 /* MAIN ===================================================================== */
 .SiteMain {
   max-width: 1600px;
@@ -2076,7 +2122,7 @@ html {
   background: #180113;
   position: relative;
   z-index: 1;
-  padding-top: 24px;
+  padding: 24px 0;
 }
 
 .TourDateItem {
@@ -2151,52 +2197,6 @@ html {
   right: 12px;
 }
 
-/* NEON ===================================================================== */
-.Neon {
-  margin-bottom: 6px;
-}
-
-.Neon:last-child {
-  margin-bottom: 0;
-}
-
-.Neon--size-1 {
-  height: 1px;
-}
-
-.Neon--size-2 {
-  height: 2px;
-}
-
-.Neon--size-3 {
-  height: 3px;
-}
-
-.Neon--colour-1 {
-  background: #9f1550;
-  box-shadow: 1px 1px 3px 0px rgba(159, 21, 80, 0.8);
-}
-
-.Neon--colour-2 {
-  background: #821860;
-  box-shadow: 1px 1px 3px 0px rgba(130, 24, 96, 0.9);
-}
-
-.Neon--colour-3 {
-  background: #681c67;
-  box-shadow: 1px 1px 3px 0px rgba(104, 28, 103, 0.9);
-}
-
-.Neon--colour-4 {
-  background: #492469;
-  box-shadow: 1px 1px 3px 0px rgba(73, 36, 105, 0.9);
-}
-
-.Neon--colour-5 {
-  background: #351a61;
-  box-shadow: 1px 1px 3px 0px rgba(53, 26, 97, 0.9);
-}
-
 /* PALM PHOTO ============================================================== */
 .PalmPhoto {
   padding: 68px 0;
@@ -2212,8 +2212,8 @@ html {
 }
 
 /* BANDCAMP TRACKS ========================================================== */
-.Music .ViewAll__link {
-  margin-top: 36px;
+.Music {
+  padding-top: 24px;
 }
 
 @media screen and (min-width: 678px) {
@@ -2226,6 +2226,6 @@ html {
   border: 0;
   width: 320px;
   height: 320px;
-  margin: 24px auto;
+  margin: 0 auto 48px;
   display: block;
 }
