@@ -40,7 +40,7 @@ $border-radius: 0;
 @import "../node_modules/bootstrap/scss/reboot";
 @import "../node_modules/bootstrap/scss/type";
 @import "../node_modules/bootstrap/scss/images";
-//@import ../node_modules/bootstrap/scss/grid';
+@import "../node_modules/bootstrap/scss/grid";
 @import "../node_modules/bootstrap/scss/buttons";
 
 // ========================================================================== //
@@ -63,6 +63,24 @@ body {
   @media screen and (min-width: 1024px) {
     background: $colour-jacaranda url("../img/hero.jpg") top center no-repeat;
     background-size: 100% 1000px;
+  }
+}
+
+.ViewAll__link {
+  font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  color: $colour-alabaster;
+  text-shadow: 2px 1px 2px $colour-disco-one;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  max-width: 200px;
+  letter-spacing: 1px;
+
+  &:hover {
+    text-decoration: none;
+    color: $colour-alabaster;
   }
 }
 
@@ -273,24 +291,6 @@ body {
   right: 12px;
 }
 
-.TourDateItem__link {
-  font-family: "Josefin Sans";
-  font-size: 18px;
-  font-style: italic;
-  color: $colour-alabaster;
-  text-shadow: 2px 1px 2px $colour-disco-one;
-  text-align: center;
-  display: block;
-  margin: 0 auto;
-  max-width: 200px;
-  letter-spacing: 1px;
-
-  &:hover {
-    text-decoration: none;
-    color: $colour-alabaster;
-  }
-}
-
 /* NEON ===================================================================== */
 
 .Neon {
@@ -341,7 +341,7 @@ body {
 /* PALM PHOTO ============================================================== */
 
 .PalmPhoto {
-  padding: 48px 0;
+  padding: 68px 0;
 }
 
 .PalmPhoto__img {
@@ -353,4 +353,26 @@ body {
   &:last-child {
     margin-bottom: 0;
   }
+}
+
+/* BANDCAMP TRACKS ========================================================== */
+
+.Music {
+  .ViewAll__link {
+    margin-top: 36px;
+  }
+}
+
+.Music__container {
+  @media screen and (min-width: 678px) {
+    max-width: 720px;
+  }
+}
+
+.BandcampTrack {
+  border: 0;
+  width: 320px;
+  height: 320px;
+  margin: 24px auto;
+  display: block;
 }
