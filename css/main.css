@@ -473,7 +473,7 @@ body {
 
 .Title {
   position: relative;
-  max-width: 400px;
+  max-width: 320px;
   margin: auto;
   background: #180113;
 }
@@ -485,7 +485,7 @@ body {
 
 .Title__neons {
   position: absolute;
-  width: 30%;
+  width: 27%;
   top: 50%;
   margin-top: -9px;
   height: 18px;
@@ -536,4 +536,5 @@ body {
   position: relative;
   z-index: 1;
   min-height: 800px;
+  padding-top: 24px;
 }
