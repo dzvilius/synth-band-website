@@ -1951,6 +1951,7 @@ html {
 .Logo {
   font-family: "Share", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 42px;
+  padding: 0 6px;
   font-style: italic;
   color: #fcfcfc;
   text-shadow: 3px 2px 2px #9f1550;
@@ -2222,6 +2223,12 @@ html {
 /* BANDCAMP TRACKS ========================================================== */
 .Music {
   padding-top: 24px;
+}
+
+@media screen and (min-width: 992px) {
+  .Music {
+    padding-bottom: 24px;
+  }
 }
 
 @media screen and (min-width: 678px) {
