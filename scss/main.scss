@@ -39,7 +39,7 @@ $border-radius: 0;
 // Optional parts
 @import "../node_modules/bootstrap/scss/reboot";
 @import "../node_modules/bootstrap/scss/type";
-//@import "../node_modules/bootstrap/scss/images";
+@import "../node_modules/bootstrap/scss/images";
 //@import ../node_modules/bootstrap/scss/grid';
 @import "../node_modules/bootstrap/scss/buttons";
 
@@ -190,10 +190,13 @@ body {
 .SiteMain {
   max-width: 1600px;
   margin: 0 auto;
-  padding: 24px 0;
   position: relative;
   z-index: 2;
   background: $colour-jacaranda;
+
+  @media screen and (min-width: 769px) {
+    padding: 24px 0;
+  }
 }
 
 /* TOUR DATES =============================================================== */
@@ -263,6 +266,7 @@ body {
   font-style: italic;
   font-size: 14px;
   color: $colour-marigold-yellow;
+  letter-spacing: 1px;
   box-shadow: 2px 2px 6px 0px rgba($colour-violet-red, 0.8);
   position: absolute;
   top: 0;
@@ -274,7 +278,7 @@ body {
   font-size: 18px;
   font-style: italic;
   color: $colour-alabaster;
-  text-shadow: 3px 2px 2px $colour-disco-one;
+  text-shadow: 2px 1px 2px $colour-disco-one;
   text-align: center;
   display: block;
   margin: 0 auto;
@@ -311,25 +315,42 @@ body {
 
 .Neon--colour-1 {
   background: $colour-disco-one;
-  box-shadow: 1px 2px 3px 0px rgba($colour-disco-one, 0.8);
+  box-shadow: 1px 1px 3px 0px rgba($colour-disco-one, 0.8);
 }
 
 .Neon--colour-2 {
   background: $colour-disco-two;
-  box-shadow: 1px 2px 3px 0px rgba($colour-disco-two, 0.9);
+  box-shadow: 1px 1px 3px 0px rgba($colour-disco-two, 0.9);
 }
 
 .Neon--colour-3 {
   background: $colour-tawny-port;
-  box-shadow: 1px 2px 3px 0px rgba($colour-tawny-port, 0.9);
+  box-shadow: 1px 1px 3px 0px rgba($colour-tawny-port, 0.9);
 }
 
 .Neon--colour-4 {
   background: $colour-jacarta;
-  box-shadow: 1px 2px 3px 0px rgba($colour-jacarta, 0.9);
+  box-shadow: 1px 1px 3px 0px rgba($colour-jacarta, 0.9);
 }
 
 .Neon--colour-5 {
   background: $colour-meteorite;
-  box-shadow: 1px 2px 3px 0px rgba($colour-meteorite, 0.9);
+  box-shadow: 1px 1px 3px 0px rgba($colour-meteorite, 0.9);
+}
+
+/* PALM PHOTO ============================================================== */
+
+.PalmPhoto {
+  padding: 48px 0;
+}
+
+.PalmPhoto__img {
+  width: 100%;
+  height: auto;
+}
+
+.Photo__neons {
+  &:last-child {
+    margin-bottom: 0;
+  }
 }

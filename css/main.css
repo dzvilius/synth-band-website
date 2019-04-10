@@ -442,6 +442,34 @@ mark,
   content: "\2014\00A0";
 }
 
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-thumbnail {
+  padding: 0.25rem;
+  background-color: #180113;
+  border: 1px solid #dee2e6;
+  border-radius: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+.figure {
+  display: inline-block;
+}
+
+.figure-img {
+  margin-bottom: 0.5rem;
+  line-height: 1;
+}
+
+.figure-caption {
+  font-size: 90%;
+  color: #6c757d;
+}
+
 .btn {
   display: inline-block;
   font-weight: 400;
@@ -1193,10 +1221,15 @@ html {
 .SiteMain {
   max-width: 1600px;
   margin: 0 auto;
-  padding: 24px 0;
   position: relative;
   z-index: 2;
   background: #180113;
+}
+
+@media screen and (min-width: 769px) {
+  .SiteMain {
+    padding: 24px 0;
+  }
 }
 
 /* TOUR DATES =============================================================== */
@@ -1272,6 +1305,7 @@ html {
   font-style: italic;
   font-size: 14px;
   color: #fbe274;
+  letter-spacing: 1px;
   box-shadow: 2px 2px 6px 0px rgba(238, 51, 119, 0.8);
   position: absolute;
   top: 0;
@@ -1283,7 +1317,7 @@ html {
   font-size: 18px;
   font-style: italic;
   color: #fcfcfc;
-  text-shadow: 3px 2px 2px #9f1550;
+  text-shadow: 2px 1px 2px #9f1550;
   text-align: center;
   display: block;
   margin: 0 auto;
@@ -1319,25 +1353,39 @@ html {
 
 .Neon--colour-1 {
   background: #9f1550;
-  box-shadow: 1px 2px 3px 0px rgba(159, 21, 80, 0.8);
+  box-shadow: 1px 1px 3px 0px rgba(159, 21, 80, 0.8);
 }
 
 .Neon--colour-2 {
   background: #821860;
-  box-shadow: 1px 2px 3px 0px rgba(130, 24, 96, 0.9);
+  box-shadow: 1px 1px 3px 0px rgba(130, 24, 96, 0.9);
 }
 
 .Neon--colour-3 {
   background: #681c67;
-  box-shadow: 1px 2px 3px 0px rgba(104, 28, 103, 0.9);
+  box-shadow: 1px 1px 3px 0px rgba(104, 28, 103, 0.9);
 }
 
 .Neon--colour-4 {
   background: #492469;
-  box-shadow: 1px 2px 3px 0px rgba(73, 36, 105, 0.9);
+  box-shadow: 1px 1px 3px 0px rgba(73, 36, 105, 0.9);
 }
 
 .Neon--colour-5 {
   background: #351a61;
-  box-shadow: 1px 2px 3px 0px rgba(53, 26, 97, 0.9);
+  box-shadow: 1px 1px 3px 0px rgba(53, 26, 97, 0.9);
+}
+
+/* PALM PHOTO ============================================================== */
+.PalmPhoto {
+  padding: 48px 0;
+}
+
+.PalmPhoto__img {
+  width: 100%;
+  height: auto;
+}
+
+.Photo__neons:last-child {
+  margin-bottom: 0;
 }
