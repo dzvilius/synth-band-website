@@ -2233,16 +2233,23 @@ html {
 
 @media screen and (min-width: 678px) {
   .Music__container {
-    max-width: 720px;
+    max-width: 780px;
   }
 }
 
 .BandcampTrack {
   border: 0;
-  width: 320px;
-  height: 320px;
+  width: 280px;
+  height: 280px;
   margin: 0 auto 48px;
   display: block;
+}
+
+@media screen and (min-width: 678px) {
+  .BandcampTrack {
+    width: 340px;
+    height: 340px;
+  }
 }
 
 /* VIDEO ==================================================================== */

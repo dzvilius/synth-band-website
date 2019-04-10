@@ -379,16 +379,21 @@ body {
 
 .Music__container {
   @media screen and (min-width: 678px) {
-    max-width: 720px;
+    max-width: 780px;
   }
 }
 
 .BandcampTrack {
   border: 0;
-  width: 320px;
-  height: 320px;
+  width: 280px;
+  height: 280px;
   margin: 0 auto 48px;
   display: block;
+
+  @media screen and (min-width: 678px) {
+    width: 340px;
+    height: 340px;
+  }
 }
 
 /* VIDEO ==================================================================== */
