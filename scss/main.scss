@@ -379,7 +379,7 @@ body {
 
 .Music__container {
   @media screen and (min-width: 678px) {
-    max-width: 780px;
+    max-width: 840px;
   }
 }
 
@@ -391,8 +391,13 @@ body {
   display: block;
 
   @media screen and (min-width: 678px) {
-    width: 340px;
-    height: 340px;
+    width: 320px;
+    height: 320px;
+  }
+
+  @media screen and (min-width: 992px) {
+    width: 360px;
+    height: 360px;
   }
 }
 

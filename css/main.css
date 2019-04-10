@@ -2233,7 +2233,7 @@ html {
 
 @media screen and (min-width: 678px) {
   .Music__container {
-    max-width: 780px;
+    max-width: 840px;
   }
 }
 
@@ -2247,8 +2247,15 @@ html {
 
 @media screen and (min-width: 678px) {
   .BandcampTrack {
-    width: 340px;
-    height: 340px;
+    width: 320px;
+    height: 320px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .BandcampTrack {
+    width: 360px;
+    height: 360px;
   }
 }
 
