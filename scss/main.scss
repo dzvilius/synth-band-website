@@ -378,6 +378,8 @@ body {
 }
 
 .Music__container {
+  overflow: hidden;
+
   @media screen and (min-width: 678px) {
     max-width: 840px;
   }
@@ -398,6 +400,21 @@ body {
   @media screen and (min-width: 992px) {
     width: 360px;
     height: 360px;
+  }
+}
+
+.SoundCloud {
+  max-width: 340px;
+  display: block;
+  margin: 24px auto 64px;
+
+  @media screen and (min-width: 678px) {
+    max-width: 420px;
+  }
+
+  @media screen and (min-width: 700px) {
+    width: 100%;
+    max-width: none;
   }
 }
 
