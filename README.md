@@ -75,15 +75,17 @@ Share - https://fonts.google.com/specimen/Share
 
 Racing Sans One - https://fonts.google.com/specimen/Racing+Sans+One
 
+Josefin Sans - https://fonts.google.com/specimen/Josefin+Sans
+
 #### Colours
 
 ![alt text](ux/v1/Designs/Colours.jpg)
 
 #### Design Mockups
 
-_Small:_ [Home](ux/v1/Designs/Small/Home.jpg), Tour Dates, [Music](ux/v1/Designs/Small/Music.jpg), Videos, Photos, Biography
+_Small:_ [Home](ux/v1/Designs/Small/Home.jpg), Tour Dates, [Music](ux/v1/Designs/Small/Music.jpg), [Videos](ux/v1/Designs/Small/Videos.png), Photos, Biography
 
-_Medium:_ [Home](ux/v1/Designs/Medium/Home.jpg), Tour Dates, [Music](ux/v1/Designs/Medium/Home.jpg), Videos, Photos, Biography
+_Medium:_ [Home](ux/v1/Designs/Medium/Home.jpg), Tour Dates, [Music](ux/v1/Designs/Medium/Home.jpg), [Videos](ux/v1/Designs/Medium/Videos.png), Photos, Biography
 
 ## Tech
 
