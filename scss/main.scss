@@ -371,7 +371,7 @@ body {
 /* BANDCAMP TRACKS ========================================================== */
 
 .Music {
-  padding-top: 24px;
+  padding-top: 48px;
 
   @media screen and (min-width: 992px) {
     padding-bottom: 24px;
@@ -414,7 +414,7 @@ body {
   }
 
   @media screen and (min-width: 700px) {
-    width: 96%;
+    width: 100%;
     max-width: none;
   }
 }

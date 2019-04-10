@@ -2223,7 +2223,7 @@ html {
 
 /* BANDCAMP TRACKS ========================================================== */
 .Music {
-  padding-top: 24px;
+  padding-top: 48px;
 }
 
 @media screen and (min-width: 992px) {
@@ -2278,7 +2278,7 @@ html {
 
 @media screen and (min-width: 700px) {
   .SoundCloud {
-    width: 96%;
+    width: 100%;
     max-width: none;
   }
 }
