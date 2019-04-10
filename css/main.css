@@ -1909,9 +1909,11 @@ html {
   -moz-osx-font-smoothing: grayscale;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1200px) {
   body {
-    background: #180113 url("../img/hero.jpg") top center no-repeat;
+    background-image: url("../img/hero.jpg");
+    background-position: center 76px;
+    background-repeat: no-repeat;
     background-size: 100% 1000px;
   }
 }
@@ -1973,28 +1975,33 @@ html {
 
 .FullWidthHeader {
   height: 450px;
-  box-shadow: 3px 2px 2px #9f1550;
+  margin: 0 auto;
   background-color: #180113;
   background-image: url("../img/hero.jpg");
   background-size: auto 100%;
   background-position: 85% top;
   background-repeat: no-repeat;
-  box-shadow: 0px 0px 80px 0px rgba(104, 28, 103, 0.5);
 }
 
 @media screen and (min-width: 769px) {
   .FullWidthHeader {
-    height: 650px;
+    height: 550px;
     background-size: cover;
     background-position: 85% bottom;
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 992px) {
   .FullWidthHeader {
-    height: 850px;
+    height: 650px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .FullWidthHeader {
+    height: 900px;
     max-width: 1600px;
-    margin: auto;
+    box-shadow: 0px 0px 80px 0px rgba(104, 28, 103, 0.5);
   }
 }
 
@@ -2092,7 +2099,7 @@ html {
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 992px) {
   .TourDateItem {
     max-width: 740px;
   }
@@ -2126,7 +2133,7 @@ html {
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 992px) {
   .TourDateItem__content {
     left: 300px;
   }
