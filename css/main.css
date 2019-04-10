@@ -2264,3 +2264,32 @@ html {
 .Video__neons:last-child {
   margin-bottom: 0;
 }
+
+/* FOLLOW =================================================================== */
+.Follow {
+  margin-bottom: 68px;
+}
+
+.Follow__links {
+  text-align: center;
+}
+
+.FollowLink {
+  background: #ee3377;
+  display: inline-block;
+  height: 38px;
+  width: 38px;
+  margin: 0 4px;
+  color: #fff;
+}
+
+.FollowLink svg {
+  position: relative;
+  top: 6px;
+}
+
+.FollowLink:hover {
+  color: #ee3377;
+  background: #fcfcfc;
+  box-shadow: 1px 2px 4px 0px rgba(238, 51, 119, 0.8);
+}
