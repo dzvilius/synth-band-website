@@ -2,7 +2,7 @@
 
 A static (front-end only) website for an 80s inspired cinematic synth-pop band from California.
 
-[Live Preview](https://hopeful-bardeen-ef0513.netlify.com/)
+To see working version please go to: [Live Preview](https://hopeful-bardeen-ef0513.netlify.com/)
 
 ## UX
 
@@ -81,9 +81,9 @@ Racing Sans One - https://fonts.google.com/specimen/Racing+Sans+One
 
 #### Design Mockups
 
-_Small:_ [Home](ux/v1/Designs/Small/Home.jpg), Tour Dates, Music, Videos, Photos, Biography
+_Small:_ [Home](ux/v1/Designs/Small/Home.jpg), Tour Dates, [Music](ux/v1/Designs/Small/Music.jpg), Videos, Photos, Biography
 
-_Medium:_ Home, Tour Dates, Music, Videos, Photos, Biography
+_Medium:_ [Home](ux/v1/Designs/Medium/Home.jpg), Tour Dates, [Music](ux/v1/Designs/Medium/Home.jpg), Videos, Photos, Biography
 
 ## Tech
 
@@ -109,6 +109,8 @@ $ npm run sass
 ```
 
 Bootstrap will be imported and single stylesheet (main.css) will be generated at "css" directory.
+
+Static files hosted on Netlify. To see working version please go to: [Live Preview](https://hopeful-bardeen-ef0513.netlify.com/)
 
 ## Credits
 

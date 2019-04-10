@@ -231,6 +231,7 @@ body {
 .SiteHeader {
   position: relative;
   z-index: 1;
+  min-height: 38px;
 }
 
 .SiteHeader__neons {
@@ -404,16 +405,16 @@ body {
 }
 
 .SoundCloud {
-  max-width: 340px;
+  max-width: 280px;
   display: block;
   margin: 24px auto 64px;
 
   @media screen and (min-width: 678px) {
-    max-width: 420px;
+    max-width: 320px;
   }
 
   @media screen and (min-width: 700px) {
-    width: 100%;
+    width: 96%;
     max-width: none;
   }
 }
