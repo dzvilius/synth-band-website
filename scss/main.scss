@@ -228,18 +228,18 @@ body {
 
 /* HEADER =================================================================== */
 
-.Header {
+.SiteHeader {
   position: relative;
   z-index: 1;
 }
 
-.Header__neons {
+.SiteHeader__neons {
   position: absolute;
   top: 0;
   width: 100%;
 }
 
-.FullWidthHeader {
+.SiteHeader--fullwidth {
   height: 450px;
   margin: 0 auto;
   background-color: $colour-jacaranda;

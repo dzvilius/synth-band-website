@@ -2071,18 +2071,18 @@ html {
 }
 
 /* HEADER =================================================================== */
-.Header {
+.SiteHeader {
   position: relative;
   z-index: 1;
 }
 
-.Header__neons {
+.SiteHeader__neons {
   position: absolute;
   top: 0;
   width: 100%;
 }
 
-.FullWidthHeader {
+.SiteHeader--fullwidth {
   height: 450px;
   margin: 0 auto;
   background-color: #180113;
@@ -2093,7 +2093,7 @@ html {
 }
 
 @media screen and (min-width: 769px) {
-  .FullWidthHeader {
+  .SiteHeader--fullwidth {
     height: 550px;
     background-size: cover;
     background-position: 85% bottom;
@@ -2101,13 +2101,13 @@ html {
 }
 
 @media screen and (min-width: 992px) {
-  .FullWidthHeader {
+  .SiteHeader--fullwidth {
     height: 650px;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .FullWidthHeader {
+  .SiteHeader--fullwidth {
     height: 900px;
   }
 }
