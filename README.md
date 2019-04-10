@@ -83,9 +83,9 @@ Josefin Sans - https://fonts.google.com/specimen/Josefin+Sans
 
 #### Design Mockups
 
-_Small:_ [Home](ux/v1/Designs/Small/Home.jpg), Tour Dates, [Music](ux/v1/Designs/Small/Music.jpg), [Videos](ux/v1/Designs/Small/Videos.png), Photos, Biography
+_Small:_ [Home](ux/v1/Designs/Small/Home.jpg), Tour Dates, [Music](ux/v1/Designs/Small/Music.jpg), [Videos](ux/v1/Designs/Small/Videos.jpg), Photos, Biography
 
-_Medium:_ [Home](ux/v1/Designs/Medium/Home.jpg), Tour Dates, [Music](ux/v1/Designs/Medium/Home.jpg), [Videos](ux/v1/Designs/Medium/Videos.png), Photos, Biography
+_Medium:_ [Home](ux/v1/Designs/Medium/Home.jpg), Tour Dates, [Music](ux/v1/Designs/Medium/Home.jpg), [Videos](ux/v1/Designs/Medium/Videos.jpg), Photos, Biography
 
 ## Tech
 
