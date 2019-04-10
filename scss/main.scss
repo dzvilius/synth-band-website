@@ -1,7 +1,6 @@
 /*
-  Synth-Pop Band Website v1.0.0
-  Author: Vilius Dzemyda
-  Built with Sass - http://sass-lang.com/
+  Synth-Pop Band Website v1.0.0 | github.com/viliusdev/ci-project-one
+  Author: Vilius Dzemyda | hello@viliusdzemyda.com
 */
 
 // ========================================================================== //
@@ -23,12 +22,14 @@ $colour-meteorite: #351a61;
 // ========================================================================== //
 // BOOTSTRAP THEME
 // ========================================================================== //
+/* Bootstrap v4.3.1 | getbootstrap.com ====================================== */
 
-/* Bootstrap v4.3.1 (https://getbootstrap.com/) */
 // https://getbootstrap.com/docs/4.3/getting-started/theming/
 
-// Variables
+$primary: $colour-violet-red;
 $body-bg: $colour-jacaranda;
+$body-color: $colour-alabaster;
+$border-radius: 0;
 
 // Required parts
 @import "../node_modules/bootstrap/scss/functions";
@@ -37,15 +38,21 @@ $body-bg: $colour-jacaranda;
 
 // Optional parts
 @import "../node_modules/bootstrap/scss/reboot";
-//@import '../node_modules/bootstrap/scss/type';
-@import "../node_modules/bootstrap/scss/images";
-//@import '../node_modules/bootstrap/scss/grid';
+@import "../node_modules/bootstrap/scss/type";
+//@import "../node_modules/bootstrap/scss/images";
+//@import ../node_modules/bootstrap/scss/grid';
+@import "../node_modules/bootstrap/scss/buttons";
 
 // ========================================================================== //
-// MY STYLES
+// CUSTOM STYLES
 // ========================================================================== //
 
-/* Custom Styles */
+$heading-font-family-1: "Racing Sans One", "Helvetica Neue", Helvetica, Arial,
+  sans-serif;
+
+$heading-font-family-2: "Share", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+/* BASE ===================================================================== */
 
 html {
   -webkit-font-smoothing: antialiased;
@@ -53,9 +60,13 @@ html {
 }
 
 body {
-  background: $colour-jacaranda url("../img/hero.jpg") top center no-repeat;
-  background-size: 100% 1000px;
+  @media screen and (min-width: 1024px) {
+    background: $colour-jacaranda url("../img/hero.jpg") top center no-repeat;
+    background-size: 100% 1000px;
+  }
 }
+
+/* SITE NAV ================================================================= */
 
 .SiteNav {
   background: $colour-violet;
@@ -67,8 +78,10 @@ body {
   padding: 12px 24px;
 }
 
+/* LOGO ===================================================================== */
+
 .Logo {
-  font-family: "Share", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: $heading-font-family-2;
   font-size: 42px;
   font-style: italic;
   color: $colour-alabaster;
@@ -83,6 +96,198 @@ body {
     color: $colour-alabaster;
   }
 }
+
+/* HEADER =================================================================== */
+
+.Header {
+  position: relative;
+  z-index: 1;
+}
+
+.Header__neons {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.FullWidthHeader {
+  height: 450px;
+  box-shadow: 3px 2px 2px $colour-disco-one;
+  background-color: $colour-jacaranda;
+  background-image: url("../img/hero.jpg");
+  background-size: auto 100%;
+  background-position: 85% top;
+  background-repeat: no-repeat;
+  box-shadow: 0px 0px 80px 0px rgba($colour-tawny-port, 0.5);
+
+  @media screen and (min-width: 769px) {
+    height: 650px;
+    background-size: cover;
+    background-position: 85% bottom;
+  }
+
+  @media screen and (min-width: 1024px) {
+    height: 850px;
+    max-width: 1600px;
+    margin: auto;
+  }
+}
+
+/* TITLE ==================================================================== */
+
+.Title {
+  position: relative;
+  max-width: 340px;
+  margin: 0 auto 48px;
+  background: $colour-jacaranda;
+}
+
+.Title__heading {
+  font-family: $heading-font-family-1;
+  text-shadow: 2px 2px 4px $colour-disco-one;
+  font-size: 28px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: normal;
+  text-align: center;
+  color: $colour-alabaster;
+  margin: 12px 0;
+  position: relative;
+  z-index: 2;
+}
+
+.Title__neons {
+  position: absolute;
+  width: 27%;
+  top: 50%;
+  margin-top: -9px;
+  height: 18px;
+  z-index: 1;
+
+  .Neon {
+    position: relative;
+  }
+}
+
+.Title__neons--left {
+  left: 0;
+}
+
+.Title__neons--right {
+  right: 0;
+}
+
+.TitleNeon-1 {
+  left: 6px;
+}
+
+.TitleNeon-3 {
+  right: 6px;
+}
+
+/* MAIN ===================================================================== */
+
+.SiteMain {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 24px 0;
+  position: relative;
+  z-index: 2;
+  background: $colour-jacaranda;
+}
+
+/* TOUR DATES =============================================================== */
+
+.TourDates {
+  background: $colour-jacaranda;
+  position: relative;
+  z-index: 1;
+  padding-top: 24px;
+}
+
+.TourDateItem {
+  max-width: 340px;
+  margin: 36px auto;
+  position: relative;
+  min-height: 100px;
+
+  .Neon {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  @media screen and (min-width: 769px) {
+    max-width: 540px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    max-width: 740px;
+  }
+}
+
+.TourDateItem__header {
+  padding: 6px 12px;
+}
+
+.TourDateItem__heading {
+  font-family: $heading-font-family-1;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.TourDateItem__content {
+  font-family: "Roboto Condensed", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 12px 12px 36px;
+
+  @media screen and (min-width: 769px) {
+    position: absolute;
+    top: 0;
+    left: 200px;
+    padding-top: 8px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    left: 300px;
+  }
+}
+
+.BuyButton {
+  font-weight: 700;
+  font-style: italic;
+  font-size: 14px;
+  color: $colour-marigold-yellow;
+  box-shadow: 2px 2px 6px 0px rgba($colour-violet-red, 0.8);
+  position: absolute;
+  top: 0;
+  right: 12px;
+}
+
+.TourDateItem__link {
+  font-family: "Josefin Sans";
+  font-size: 18px;
+  font-style: italic;
+  color: $colour-alabaster;
+  text-shadow: 3px 2px 2px $colour-disco-one;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  max-width: 200px;
+  letter-spacing: 1px;
+
+  &:hover {
+    text-decoration: none;
+    color: $colour-alabaster;
+  }
+}
+
+/* NEON ===================================================================== */
 
 .Neon {
   margin-bottom: 6px;
@@ -127,112 +332,4 @@ body {
 .Neon--colour-5 {
   background: $colour-meteorite;
   box-shadow: 1px 2px 3px 0px rgba($colour-meteorite, 0.9);
-}
-
-.Header {
-  position: relative;
-  z-index: 1;
-}
-
-.Header__neons {
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
-
-.FullWidthHeader {
-  height: 450px;
-  box-shadow: 3px 2px 2px $colour-disco-one;
-  background-color: $colour-jacaranda;
-  background-image: url("../img/hero.jpg");
-  background-size: auto 100%;
-  background-position: 85% top;
-  background-repeat: no-repeat;
-  box-shadow: 0px 0px 80px 0px rgba($colour-tawny-port, 0.5);
-
-  @media screen and (min-width: 769px) {
-    height: 650px;
-    background-size: cover;
-    background-position: 85% bottom;
-  }
-
-  @media screen and (min-width: 1024px) {
-    height: 850px;
-    max-width: 1600px;
-    margin: auto;
-  }
-}
-
-.Title {
-  position: relative;
-  max-width: 320px;
-  margin: auto;
-  background: $colour-jacaranda;
-
-  h3 {
-    position: relative;
-    z-index: 2;
-  }
-}
-
-.Title__neons {
-  position: absolute;
-  width: 27%;
-  top: 50%;
-  margin-top: -9px;
-  height: 18px;
-  z-index: 1;
-
-  .Neon {
-    position: relative;
-  }
-}
-
-.Title__neons--left {
-  left: 0;
-}
-
-.Title__neons--right {
-  right: 0;
-}
-
-.TitleNeon-1 {
-  left: 6px;
-}
-
-.TitleNeon-3 {
-  right: 6px;
-}
-
-.SiteMain {
-  max-width: 1600px;
-  margin: auto;
-  position: relative;
-  z-index: 2;
-  background: $colour-jacaranda;
-
-  h3 {
-    font-family: "Racing Sans One", "Helvetica Neue", Helvetica, Arial,
-      sans-serif;
-    text-shadow: 2px 2px 4px $colour-disco-one;
-    font-size: 28px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: normal;
-    text-align: center;
-    color: $colour-alabaster;
-  }
-}
-
-.TourDates {
-  background: $colour-jacaranda;
-  position: relative;
-  z-index: 1;
-  //min-height: 800px;
-  padding-top: 24px;
-}
-
-.Bandcamp {
-  display: block;
-  margin: 48px auto;
 }
