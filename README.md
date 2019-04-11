@@ -141,8 +141,6 @@ The videos used in this site were obtained from:
 
 - https://www.youtube.com/channel/UCQEOS714xK3pmvkvMyafPRQ
 
-- https://www.youtube.com/channel/UCoI-uskkplcJT231v_fO0Zg
-
 #### Acknowledgements
 
 Inspiration for the style of this site:
