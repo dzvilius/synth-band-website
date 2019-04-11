@@ -2130,6 +2130,10 @@ html {
   padding: 68px 0;
 }
 
+.TourDates--inner {
+  padding: 68px 0 0;
+}
+
 .TourDates--inner .Title__neons {
   width: 18%;
 }
@@ -2318,7 +2322,7 @@ html {
 }
 
 .Video--inner {
-  padding: 68px 0;
+  padding: 68px 0 0;
 }
 
 .Video__iframe {
