@@ -92,12 +92,13 @@ _Medium:_ [Home](ux/v1/Designs/Medium/Home.jpg), Tour Dates, [Music](ux/v1/Desig
 A list of all of the languages, frameworks and libraries used to construct this project.
 
 - HTML & CSS
-- Bootstrap CSS (https://getbootstrap.com/)
-- Google Fonts (https://fonts.google.com/)
-- Node (https://nodejs.org/)
-- npm (https://www.npmjs.com/)
-- Sass (https://sass-lang.com/)
-- Prettier (https://prettier.io/)
+- Bootstrap CSS - https://getbootstrap.com
+- Google Fonts - https://fonts.google.com
+- Node - https://nodejs.org
+- npm - https://www.npmjs.com
+- Sass - https://sass-lang.com
+- Font Awesome - https://fontawesome.com
+- Prettier - https://prettier.io
 
 ## Deployment
 
