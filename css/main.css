@@ -1920,6 +1920,7 @@ html {
 
 .SiteContainer {
   margin: 0 auto;
+  background: #190524;
 }
 
 @media screen and (min-width: 1600px) {
@@ -1938,8 +1939,9 @@ html {
   text-align: center;
   display: block;
   margin: 0 auto;
-  max-width: 200px;
+  max-width: 320px;
   letter-spacing: 1px;
+  padding: 24px 0;
 }
 
 .ViewAll__link:hover {
@@ -1977,8 +1979,7 @@ html {
 .Title {
   position: relative;
   max-width: 340px;
-  margin: 0 auto 48px;
-  background: #180113;
+  margin: 0 auto;
 }
 
 .Title__heading {
@@ -2121,23 +2122,17 @@ html {
   background: #180113;
 }
 
-@media screen and (min-width: 769px) {
-  .SiteMain {
-    padding: 24px 0;
-  }
-}
-
 /* TOUR DATES =============================================================== */
 .TourDates {
   background: #180113;
   position: relative;
   z-index: 1;
-  padding: 24px 0;
+  padding: 68px 0;
 }
 
 .TourDateItem {
   max-width: 340px;
-  margin: 36px auto;
+  margin: 68px auto;
   position: relative;
   min-height: 100px;
 }
@@ -2209,7 +2204,7 @@ html {
 
 /* PALM PHOTO ============================================================== */
 .PalmPhoto {
-  padding: 68px 0;
+  padding: 0;
 }
 
 .PalmPhoto__img {
@@ -2223,13 +2218,11 @@ html {
 
 /* BANDCAMP TRACKS ========================================================== */
 .Music {
-  padding-top: 48px;
+  padding: 68px 0;
 }
 
-@media screen and (min-width: 992px) {
-  .Music {
-    padding-bottom: 24px;
-  }
+.Music__bandcamp {
+  padding-top: 0;
 }
 
 .Music__container {
@@ -2240,6 +2233,14 @@ html {
   .Music__container {
     max-width: 840px;
   }
+}
+
+.BandcampTracks {
+  padding-top: 68px;
+}
+
+.BandcampTracks--inner {
+  padding-top: 28px;
 }
 
 .BandcampTrack {
@@ -2265,35 +2266,35 @@ html {
 }
 
 .SoundCloud {
-  max-width: 280px;
+  max-width: 320px;
   display: block;
-  margin: 24px auto 64px;
+  margin: 22px auto 0;
 }
 
 @media screen and (min-width: 678px) {
   .SoundCloud {
-    max-width: 320px;
+    max-width: 460px;
   }
 }
 
 @media screen and (min-width: 700px) {
   .SoundCloud {
     width: 100%;
-    max-width: none;
+    max-width: 780px;
   }
 }
 
 /* VIDEO ==================================================================== */
 .Video {
-  padding: 68px 0;
+  padding: 0;
 }
 
-.Video--home {
+.Videos__container {
   padding: 68px 0;
 }
 
 .Video--inner {
-  padding: 48px 0;
+  padding: 68px 0;
 }
 
 .Video__iframe {
@@ -2324,11 +2325,13 @@ html {
 
 /* FOLLOW =================================================================== */
 .Follow {
-  margin-bottom: 68px;
+  padding: 68px 0;
+  background: #190524;
 }
 
 .Follow__links {
   text-align: center;
+  padding: 48px 0;
 }
 
 .FollowLink {
@@ -2353,7 +2356,7 @@ html {
 
 /* SITE FOOTER ============================================================== */
 .SiteFooter {
-  padding: 48px 0 24px;
+  padding: 48px 0;
 }
 
 .SiteFooter__logo {
