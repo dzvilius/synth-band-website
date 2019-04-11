@@ -283,6 +283,34 @@ body {
   padding: 68px 0;
 }
 
+.TourDates--inner {
+  .Title__neons {
+    width: 18%;
+  }
+
+  .TourDateItem {
+    margin-bottom: 28px;
+  }
+}
+
+.TourDates--next {
+  padding: 0;
+}
+
+.TourDates__neons {
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.TourDates__neons--top {
+  margin-bottom: 68px;
+}
+
+.TourDates__neons--bottom {
+  margin-top: 28px;
+}
+
 .TourDateItem {
   max-width: 340px;
   margin: 68px auto;
@@ -359,7 +387,7 @@ body {
   height: auto;
 }
 
-.Photo__neons {
+.PalmPhoto__neons {
   &:last-child {
     margin-bottom: 0;
   }
@@ -458,6 +486,8 @@ body {
 
 .YouTube--inner {
   margin-bottom: 24px;
+  margin-right: 24px;
+  margin-left: 24px;
 }
 
 .Video__neons {
