@@ -16,9 +16,43 @@
   </head>
   <body>
     <div class="SiteContainer">
-      <nav class="SiteNav">
-        <div class="SiteNav__logo">
+      <nav class="navbar navbar-expand-md SiteNav">
+        <div class="navbar-brand SiteNav__logo">
           <a href="/" class="Logo">FM-84</a>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <div class="NavbarTogglerIcon">
+            <div class="NavbarTogglerIcon__line"></div>
+            <div class="NavbarTogglerIcon__line"></div>
+            <div class="NavbarTogglerIcon__line"></div>
+          </div>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="tour-dates.html">Tour Dates</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="music.html">Music</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="videos.html">Videos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="photos.html">Photos</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="biography.html">Biography</a>
+            </li>
+          </ul>
         </div>
       </nav>
       <header class="SiteHeader">
