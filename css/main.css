@@ -2010,7 +2010,6 @@ body {
 
 .Title__neons {
   position: absolute;
-  width: 27%;
   top: 50%;
   margin-top: -9px;
   height: 18px;
@@ -2019,6 +2018,34 @@ body {
 
 .Title__neons .Neon {
   position: relative;
+}
+
+.Title__neons--option-1 {
+  width: 30%;
+}
+
+.Title__neons--option-2 {
+  width: 28%;
+}
+
+.Title__neons--option-3 {
+  width: 26%;
+}
+
+.Title__neons--option-4 {
+  width: 24%;
+}
+
+.Title__neons--option-5 {
+  width: 22%;
+}
+
+.Title__neons--option-6 {
+  width: 20%;
+}
+
+.Title__neons--option-7 {
+  width: 18%;
 }
 
 .Title__neons--left {
@@ -2035,6 +2062,18 @@ body {
 
 .TitleNeon-3 {
   right: 6px;
+}
+
+/* CONTENT ================================================================== */
+.Content {
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  padding: 68px 24px;
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 20px;
+  font-style: italic;
+  line-height: 1.6;
 }
 
 /* NEON ===================================================================== */
@@ -2143,10 +2182,6 @@ body {
 
 .TourDates--inner {
   padding: 68px 0 0;
-}
-
-.TourDates--inner .Title__neons {
-  width: 18%;
 }
 
 .TourDates--inner .TourDateItem {
@@ -2378,6 +2413,11 @@ body {
 
 .InstagramPhoto {
   margin-bottom: 48px;
+}
+
+/* BIOGRAPHY ================================================================ */
+.Biography {
+  padding: 68px 0 0;
 }
 
 /* FOLLOW =================================================================== */
