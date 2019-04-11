@@ -6319,6 +6319,7 @@ html {
 
 .InstagramPhoto {
   margin-bottom: 48px;
+  box-shadow: 3px 3px 8px rgba(104, 28, 103, 0.5);
 }
 
 /* BIOGRAPHY ================================================================ */
