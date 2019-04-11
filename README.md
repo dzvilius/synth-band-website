@@ -83,9 +83,9 @@ Josefin Sans - https://fonts.google.com/specimen/Josefin+Sans
 
 #### Design Mockups
 
-_Small:_ [Home](ux/v1/Designs/Small/Home.jpg), Tour Dates, [Music](ux/v1/Designs/Small/Music.jpg), [Videos](ux/v1/Designs/Small/Videos.jpg), Photos, Biography
+_Small:_ [Home](ux/v1/Designs/Small/Home.jpg), [Tour Dates](ux/v1/Designs/Small/Tour_Dates.jpg), [Music](ux/v1/Designs/Small/Music.jpg), [Videos](ux/v1/Designs/Small/Videos.jpg), [Photos](ux/v1/Designs/Small/Photos.jpg), [Biography](ux/v1/Designs/Small/Biography.jpg)
 
-_Medium:_ [Home](ux/v1/Designs/Medium/Home.jpg), Tour Dates, [Music](ux/v1/Designs/Medium/Home.jpg), [Videos](ux/v1/Designs/Medium/Videos.jpg), Photos, Biography
+_Medium:_ [Home](ux/v1/Designs/Medium/Home.jpg), [Tour Dates](ux/v1/Designs/Medium/Tour_Dates.jpg), [Music](ux/v1/Designs/Medium/Home.jpg), [Videos](ux/v1/Designs/Medium/Videos.jpg), [Photos](ux/v1/Designs/Medium/Photos.jpg), [Biography](ux/v1/Designs/Medium/Biography.jpg)
 
 ## Tech
 
@@ -122,6 +122,8 @@ Static files hosted on Netlify. To see working version please go to: [Live Previ
 The photos used in this site were obtained from:
 
 - https://www.facebook.com/fm84music/
+
+- https://www.instagram.com/fm84music
 
 - https://www.goodfon.com/user/kipish_fon/
 
