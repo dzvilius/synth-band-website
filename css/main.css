@@ -1909,18 +1909,30 @@ html {
   -moz-osx-font-smoothing: grayscale;
 }
 
+body {
+  background-image: url("../img/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: auto 450px;
+  background-position: 70% 76px;
+}
+
+@media screen and (min-width: 769px) {
+  body {
+    background-size: 100%;
+    background-position: 70% 76px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   body {
-    background-image: url("../img/hero.jpg");
+    background-attachment: fixed;
     background-position: center 76px;
-    background-repeat: no-repeat;
-    background-size: 100% 1000px;
   }
 }
 
 .SiteContainer {
   margin: 0 auto;
-  background: #190524;
+  background: rgba(24, 1, 19, 0.8);
 }
 
 @media screen and (min-width: 1600px) {
@@ -2119,7 +2131,6 @@ html {
   margin: 0 auto;
   position: relative;
   z-index: 2;
-  background: #180113;
 }
 
 /* TOUR DATES =============================================================== */
@@ -2233,6 +2244,7 @@ html {
 /* PALM PHOTO ============================================================== */
 .PalmPhoto {
   padding: 0;
+  background: #180113;
 }
 
 .PalmPhoto__img {
@@ -2402,6 +2414,7 @@ html {
 /* SITE FOOTER ============================================================== */
 .SiteFooter {
   padding: 48px 0;
+  background: #190524;
 }
 
 .SiteFooter__logo {
