@@ -6,11 +6,11 @@ To see working version please go to: [Live Preview](https://hopeful-bardeen-ef05
 
 ## UX
 
-The cinematic 80s inspired band website for the fans of synth-pop music, so they can listen to the latest tracks, view video clips, and check tour dates.
+The cinematic 80s inspired band website for the fans of synth-pop music, so they can listen to the latest tracks, view video clips, and check tour dates, buy tickets and sign up for updates.
 
 To learn more about the needs of the band, please read the [Project Brief](ux/Project_Brief.md) document.
 
-### Objectives
+#### Objectives
 
 - Increase online visibility
 - Increase fanbase
@@ -18,11 +18,11 @@ To learn more about the needs of the band, please read the [Project Brief](ux/Pr
 - Share tour dates
 - Build a fan email list
 
-#### Users
+### Users
 
 - Current and potential **Fans**
 
-#### Stories
+### Stories
 
 **_"As a fan, I want to listen to band music, so that I can hear the latest tracks."_**
 
@@ -114,7 +114,7 @@ _Features to be implemented in the future:_
 
 ## Structure
 
-To learn more about the information architecture and the flow of this application, please view the [mindmap](ux/v1/Mindmap_v1.png).
+To learn more about the information architecture and the flow of this application, please view the [Mindmap](ux/v1/Mindmap_v1.png).
 
 ## Skeleton
 
@@ -123,6 +123,8 @@ To learn more about the information architecture and the flow of this applicatio
 _Small:_ [Home](ux/v1/Wireframes/Small/Home.png), [Tour Dates](ux/v1/Wireframes/Small/Tour_Dates.png), [Music](ux/v1/Wireframes/Small/Music.png), [Videos](ux/v1/Wireframes/Small/Videos.png), [Photos](ux/v1/Wireframes/Small/Photos.png), [Biography](ux/v1/Wireframes/Small/Biography.png), [All in One](ux/v1/Wireframes/Small/Wireframe_Small_v1.pdf)
 
 _Medium:_ [Home](ux/v1/Wireframes/Medium/Home.png), [Tour Dates](ux/v1/Wireframes/Medium/Tour_Dates.png), [Music](ux/v1/Wireframes/Medium/Music.png), [Videos](ux/v1/Wireframes/Medium/Videos.png), [Photos](ux/v1/Wireframes/Medium/Photos.png), [Biography](ux/v1/Wireframes/Medium/Biography.png), [All in One](ux/v1/Wireframes/Medium/Wireframe_Medium_v1.pdf)
+
+_Desktop:_ *Same as table view*
 
 ## Surface
 
@@ -147,6 +149,8 @@ _Medium:_ [Home](ux/v1/Wireframes/Medium/Home.png), [Tour Dates](ux/v1/Wireframe
 _Small:_ [Home](ux/v1/Designs/Small/Home.jpg), [Tour Dates](ux/v1/Designs/Small/Tour_Dates.jpg), [Music](ux/v1/Designs/Small/Music.jpg), [Videos](ux/v1/Designs/Small/Videos.jpg), [Photos](ux/v1/Designs/Small/Photos.jpg), [Biography](ux/v1/Designs/Small/Biography.jpg)
 
 _Medium:_ [Home](ux/v1/Designs/Medium/Home.jpg), [Tour Dates](ux/v1/Designs/Medium/Tour_Dates.jpg), [Music](ux/v1/Designs/Medium/Music.jpg), [Videos](ux/v1/Designs/Medium/Videos.jpg), [Photos](ux/v1/Designs/Medium/Photos.jpg), [Biography](ux/v1/Designs/Medium/Biography.jpg)
+
+_Desktop:_ *Same as table view*
 
 ## Tech
 
@@ -177,7 +181,7 @@ A list of all of the languages, frameworks and libraries used to construct this 
 
 The site was checked with W3C [HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fhopeful-bardeen-ef0513.netlify.com%2F) and [CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fhopeful-bardeen-ef0513.netlify.com%2Fcss%2Fmain.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) validators, and the issues where fixed accordingly.
 
-Run a series of audits against the page using [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) and generate the performance reports. Please view the initial [Report](ux/v1/Reports/Lighthouse_Report_Before.png) and the [Report](ux/v1/Reports/Lighthouse_Report_After.png) after some optimisations were completed. Based on the audit suggestions I have improved the page loading speed from 1.7s to 1.5s, and optimised accessibility with best practices.
+Run a series of audits against the page using [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) and generated the performance reports. Please view the initial [Report](ux/v1/Reports/Lighthouse_Report_Before.png) and the [Report](ux/v1/Reports/Lighthouse_Report_After.png) after some of the optimisations were completed. Based on the audit suggestions I have improved the page loading speed from 1.7s to 1.5s and optimised the accessibility.
 
 Browser testing is next...
 
@@ -187,15 +191,15 @@ The site is deployed to Netlify. To see a working version please go to: [Live Pr
 
 To run project locally you do not need any additional software, however if you want to make changes to the Sass files you need to download and install Node from: https://nodejs.org/en/download/.
 
-Then follow the steps bellow:
+After follow the steps:
 
 ```
-$ git clone https://github.com/viliusdev/ci-project-one.git
-$ cd ci-project-one
+$ git clone
+$ cd project-name
 $ npm install
 ```
 
-Make a CSS or HTML change and then run the command:
+Update the Sass files and run the following command:
 
 ```
 $ npm run build:sass
@@ -203,15 +207,7 @@ $ npm run build:sass
 
 The site can be deployed to any static site hosting provider.
 
-For developing locally, if you want to compile the CSS files instantly on the Sass source file save, please use the command:
-
-```
-$ npm run watch:sass -w
-```
-
-Node will wait for changes and once files is edited and saved it will generate CSS
-
-I am using Netlify to deploy the site automatically from my GitHub repository every time I use 'git push' from my local development environment.
+I am using Netlify to deploy automatically each time I push to GitHub.
 
 ## Credits
 
