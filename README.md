@@ -74,7 +74,6 @@ To learn more about the needs of the band, please read the [Project Brief](ux/Pr
 - As a fan, I want to see the list of videos, so that I can pick one to watch.
   - [x] Get the YouTube embed code
   - [x] Should be flexible size (responsive)
-  - [ ]
 - As a fan, I want to play the video, so that I can see and hear my favourite track.
   - [x] Open the video and play in full screen (default on mobile)
   - [x] Open the video and play in small container (desktop mode)
@@ -178,7 +177,7 @@ A list of all of the languages, frameworks and libraries used to construct this 
 
 The site was checked with W3C [HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fhopeful-bardeen-ef0513.netlify.com%2F) and [CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fhopeful-bardeen-ef0513.netlify.com%2Fcss%2Fmain.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) validators, and the issues where fixed accordingly.
 
-Run a series of audits against the page using [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) and generate the performance reports. Please view the initial [Report](ux/v1/Reports/Lighthouse_Report_Before.png) and the [Report](ux/v1/Reports/Lighthouse_Report_After.png) after some optimisations were completed. Based on the audit suggestions I improved page loading speed from 1.7s to 1.5s, and optimised accessibility with best practices.
+Run a series of audits against the page using [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) and generate the performance reports. Please view the initial [Report](ux/v1/Reports/Lighthouse_Report_Before.png) and the [Report](ux/v1/Reports/Lighthouse_Report_After.png) after some optimisations were completed. Based on the audit suggestions I have improved the page loading speed from 1.7s to 1.5s, and optimised accessibility with best practices.
 
 Browser testing is next...
 
