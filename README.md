@@ -2,13 +2,13 @@
 
 A static (front-end only) website for an 80s inspired cinematic synth-pop band from California.
 
-To see working version please go to: [Live Preview](https://hopeful-bardeen-ef0513.netlify.com/)
+To see working version please go to: [Live Preview](https://hopeful-bardeen-ef0513.netlify.com/).
 
 ## UX
 
 The cinematic 80s inspired band website for the fans of synth-pop music, so they can listen to the latest tracks, view video clips, and check tour dates.
 
-To learn more about the goals of the band, please read the [Project Brief](ux/Project_Brief.md) document.
+To learn more about the needs of the band, please read the [Project Brief](ux/Project_Brief.md) document.
 
 ### Objectives
 
@@ -16,6 +16,7 @@ To learn more about the goals of the band, please read the [Project Brief](ux/Pr
 - Increase fanbase
 - Promote music
 - Share tour dates
+- Build a fan email list
 
 #### Users
 
@@ -23,37 +24,98 @@ To learn more about the goals of the band, please read the [Project Brief](ux/Pr
 
 #### Stories
 
-"As a fan, I want to listen to band music, so that I can hear the latest tracks."
+***"As a fan, I want to listen to band music, so that I can hear the latest tracks."***
 
-"As a fan, I want to view video clips, so that I can see the footage of recent tours."
+- As a fan, I want to open the album, so that I can start playing the track.
+  - [x] Get the 'Bandcamp' widget embed code
+  - [x] Should be flexible size (responsive)
+  - [ ] Test for play back on multiple devices
+- As a fan, I want to view the list of albums, so that I can choose which one to listen.
+  - [x] Get the 'Bandcamp' widget embed code
+  - [x] Create a list of widget items using Bootstrap grid css
+  - [x] Should be flexible size (responsive)
+  - [ ] Test layout and widget sizes on multiple devices
 
-"As a fan, I want to view photos, so that I can see the cool moments of the band."
+***"As a fan, I want to purchase music tracks, so that I can support my favourite band."***
 
-"As a fan, I want to purchase music tracks, so that I can listen to them whenever I want."
+- As a fan, I want to open the album, so that I can click on the Buy Now link.
+  - [x] Get the 'Bandcamp' widget embed code
+  - [x] Should be flexible size (responsive)
+  - [x] Make sure it links to and opens the correct album on the Bandcamp site
+  - [ ] Test purchase process on multiple devices
 
-"As a fan, I want to check tour dates, so that I know when they are coming to town."
+***"As a fan, I want to check tour dates, so that I know when they are coming to town."***
 
-"As a fan, I want to follow them, so that I can receive important updates fast."
+- As a fan, I want to view the list of tour dates, so that I can pick a date.
+  - [x] Custom HTML & CSS
+  - [x] Display the tour date and venue
+  - [x] Mobile layout option
+  - [x] Tablet and Up layout option
+  - [ ] Test layout on multiple devices
+- As a fan, I want to buy tickets to the event, so that I can see my favourite band.
+  - [x] Display the button with 'Buy Ticket' text
+  - [x] Open new tab on button click
+  - [x] Custom button CSS styling
+  - [x] The button should link to '#' for demo purpose
+  - [ ] Test the Buy button on multiple devices
+
+***"As a fan, I want to view photos, so that I can see cool moments of the band."***
+
+- As a fan, I want to view the list of photos, so that I see what they are up to lately.
+  - [x] Get the latest photography from Instagram
+  - [x] Grid of photos using Bootstrap
+  - [ ] Check layout and responsiveness on multiple devices
+- As a fan, I want to open the photo, so that I can see more details.
+  - [x] Link each photo to the original source of the photo
+  - [x] Open each photo in new tab
+
+***"As a fan, I want to play music video clips, so that I can see cool footage."***
+
+- As a fan, I want to see the list of videos, so that I can pick one to watch.
+  - [x] Get the YouTube embed code
+  - [x] Should be flexible size (responsive)
+  - [ ] 
+- As a fan, I want to play the video, so that I can see and hear my favourite track.
+  - [x] Open the video and play in full screen (default on mobile)
+  - [x] Open the video and play in small container (desktop mode)
+  - [ ] Test video playback on multiple devices
+
+***"As a fan, I want to follow the band, so that I can receive important updates fast."***
+
+- As a fan, I want to click on social media icon, so that I can follow the band.
+  - [x] Get Font Awesome icons for each social media account
+  - [x] Link each icon to the corresponding account
+  - [x] Each link should open in new tab
+  - [ ] Test on multiple devices
+
+***"As a fan, I want to sign up for updates, so that I can receive important news about the music and events."***
+
+- As a fan, I want to enter my email address, so that I can get important updates or offers.
+  - [ ] Display the email input field using HTML5
+  - [ ] Test for empty field or incorrect email address
 
 ## Features
 
-- Mobile-first
-- Responsive
-- Semantic
-- Navigation
-- Events
-- Gallery
-- Bandcamp
-- SoundCloud
-- YouTube
+- Valid HTML & CSS
+- Made for mobile first
+- Browser tested
+- Responsive navigation
+- Events listing and ticket ordering
+- Photo gallery from Instagram
+- Bandcamp music widgets
+- SoundCloud music player
+- YouTube video player
+- Social media follow links
 
 _Features to be implemented in the future:_
 
+- Newsletter sign up
 - Instagram feed
+- Visual effects using CSS3
 
 ## Structure
 
-To learn more about the information architecture and the flow of this application, please view the [Mindmap](ux/v1/Mindmap_v1.png).
+To learn more about the information architecture and the flow of this application, please view the [mindmap](ux/v1/Mindmap_v1.png).
 
 ## Skeleton
 
@@ -67,15 +129,15 @@ _Medium:_ [Home](ux/v1/Wireframes/Medium/Home.png), [Tour Dates](ux/v1/Wireframe
 
 #### Fonts
 
-Roboto - https://fonts.google.com/specimen/Roboto
+- Roboto - https://fonts.google.com/specimen/Roboto (Bootstrap default)
 
-Roboto Condensed - https://fonts.google.com/specimen/Roboto+Condensed
+- Roboto Condensed - https://fonts.google.com/specimen/Roboto+Condensed
 
-Share - https://fonts.google.com/specimen/Share
+- Share - https://fonts.google.com/specimen/Share
 
-Racing Sans One - https://fonts.google.com/specimen/Racing+Sans+One
+- Racing Sans One - https://fonts.google.com/specimen/Racing+Sans+One
 
-Josefin Sans - https://fonts.google.com/specimen/Josefin+Sans
+- Josefin Sans - https://fonts.google.com/specimen/Josefin+Sans
 
 #### Colours
 
@@ -93,33 +155,62 @@ A list of all of the languages, frameworks and libraries used to construct this 
 
 - HTML & CSS
 - Bootstrap CSS - https://getbootstrap.com
+  - Site Navigation and layout for albums and photos
+- jQuery - https://jquery.com/
+  - Enable the Navbar toggler
 - Google Fonts - https://fonts.google.com
+  - Support non-standard fonts on user browser
 - Node - https://nodejs.org
+  - CSS compiling using Sass package and Node scripts
 - npm - https://www.npmjs.com
+  - Package management
 - Sass - https://sass-lang.com
+  - Compile custom CSS
+  - Choose and compile individual Bootstrap CSS parts
+  - Ability to use CSS variables
+  - Speed up CSS coding
 - Font Awesome - https://fontawesome.com
+  - Menu and social media icons
 - Prettier - https://prettier.io
+  - Format the code and speed up the development
 
 ## Testing
 
 The site was checked with W3C [HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fhopeful-bardeen-ef0513.netlify.com%2F) and [CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fhopeful-bardeen-ef0513.netlify.com%2Fcss%2Fmain.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) validators, and the issues where fixed accordingly.
 
-I've used [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) to run a series of audits against the page and generate performance reports. Please view the [Initial Report](ux/v1/Reports/Lighthouse_Report_Before.png) for optimisation suggestions and the [Report](ux/v1/Reports/Lighthouse_Report_After.png) after some optimisations were completed. Improved page loading speed from 1.7s to 1.5s, and implemented accessibility and best practices tips.
+Run a series of audits against the page using [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) and generate the performance reports. Please view the initial [Report](ux/v1/Reports/Lighthouse_Report_Before.png) and the [Report](ux/v1/Reports/Lighthouse_Report_After.png) after some optimisations were completed. Based on the audit suggestions I improved page loading speed from 1.7s to 1.5s, and optimised accessibility with best practices.
+
+Browser testing is next...
 
 ## Deployment
 
-Before deploying the site to a hosting provider, you need to compile the "main.scss" file.
+The site is deployed to Netlify. To see a working version please go to: [Live Preview](https://hopeful-bardeen-ef0513.netlify.com/).
 
-Install Node from: https://nodejs.org/en/download/ and then run:
+To run project locally you do not need any additional software, however if you want to make changes to the Sass files you need to download and install Node from: https://nodejs.org/en/download/.
+
+Then follow the steps bellow:
 
 ```
+$ git clone https://github.com/viliusdev/ci-project-one.git
+$ cd ci-project-one
 $ npm install
-$ npm run sass
+```
+Make a CSS or HTML change and then run the command:
+```
+$ npm run build:sass
 ```
 
-Bootstrap will be imported and single stylesheet (main.css) will be generated at "css" directory.
+The site can be deployed to any static site hosting provider.
 
-Static files hosted on Netlify. To see working version please go to: [Live Preview](https://hopeful-bardeen-ef0513.netlify.com/)
+For developing locally, if you want to compile the CSS files instantly on the Sass source file save, please use the command:
+
+```
+$ npm run watch:sass
+```
+
+Node will wait for changes and once files is edited and saved it will generate CSS 
+
+I am using Netlify to deploy the site automatically from my GitHub repository every time I use 'git push' from my local development environment.
 
 ## Credits
 

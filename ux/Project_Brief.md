@@ -7,13 +7,15 @@ Build a static (front-end only) website for a band. As a starting point, you may
 **You have been given the following requirements after interviews with the client’s representatives:**
 
 - Their primary target audiences are their fans and potential fans who wish to use the site to see and hear clips from their back catalogue, and any new material as it becomes available.
-- Also, the band would like to use the site to showcase their music, videos and photography, publicise the upcoming events such as 80s inspired events.
-- Include the links to 'Bandcamp' site so the fans can buy their music.
+- Also, the band would like to use the site to showcase their music, videos, photography, and publicise the upcoming events.
+- Sell their music using 'Bandcamp' widgets.
+- Latest music and events subscription by email.
 
 **The band has provided you, the developer, with the following assets that they would like to showcase on their website:**
 
 - Photography
+- Bandcamp audio tracks
 - YouTube video clips
 - SoundCloud audio clips
 
-Also, they would like to add links to their Facebook, Twitter, Bandcamp and YouTube pages.
+Also, they would like to add links to their Facebook, Twitter, Bandcamp, SoundCloud and Instagram pages.
