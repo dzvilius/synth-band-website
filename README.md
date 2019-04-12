@@ -104,7 +104,7 @@ A list of all of the languages, frameworks and libraries used to construct this 
 
 The site was checked with W3C [HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fhopeful-bardeen-ef0513.netlify.com%2F) and [CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fhopeful-bardeen-ef0513.netlify.com%2Fcss%2Fmain.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) validators, and the issues where fixed accordingly.
 
-I've used [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) to run a series of audits against the page and generate performance reports. Please view the [Initial Report](ux/v1/Reports/Lighthouse_Report_Before.pdf) for optimisation suggestions and the [Report](#) after some optimisations where completed.
+I've used [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) to run a series of audits against the page and generate performance reports. Please view the [Initial Report](ux/v1/Reports/Lighthouse_Report_Before.pdf) for optimisation suggestions and the [Report](ux/v1/Reports/Lighthouse_Report_After.pdf) after some optimisations were completed. Improved page loading speed from 1.7s to 1.5s, and implemented accessibility and best practices tips.
 
 ## Deployment
 
