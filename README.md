@@ -24,7 +24,7 @@ To learn more about the needs of the band, please read the [Project Brief](ux/Pr
 
 #### Stories
 
-***"As a fan, I want to listen to band music, so that I can hear the latest tracks."***
+**_"As a fan, I want to listen to band music, so that I can hear the latest tracks."_**
 
 - As a fan, I want to open the album, so that I can start playing the track.
   - [x] Get the 'Bandcamp' widget embed code
@@ -36,7 +36,7 @@ To learn more about the needs of the band, please read the [Project Brief](ux/Pr
   - [x] Should be flexible size (responsive)
   - [ ] Test layout and widget sizes on multiple devices
 
-***"As a fan, I want to purchase music tracks, so that I can support my favourite band."***
+**_"As a fan, I want to purchase music tracks, so that I can support my favourite band."_**
 
 - As a fan, I want to open the album, so that I can click on the Buy Now link.
   - [x] Get the 'Bandcamp' widget embed code
@@ -44,7 +44,7 @@ To learn more about the needs of the band, please read the [Project Brief](ux/Pr
   - [x] Make sure it links to and opens the correct album on the Bandcamp site
   - [ ] Test purchase process on multiple devices
 
-***"As a fan, I want to check tour dates, so that I know when they are coming to town."***
+**_"As a fan, I want to check tour dates, so that I know when they are coming to town."_**
 
 - As a fan, I want to view the list of tour dates, so that I can pick a date.
   - [x] Custom HTML & CSS
@@ -59,7 +59,7 @@ To learn more about the needs of the band, please read the [Project Brief](ux/Pr
   - [x] The button should link to '#' for demo purpose
   - [ ] Test the Buy button on multiple devices
 
-***"As a fan, I want to view photos, so that I can see cool moments of the band."***
+**_"As a fan, I want to view photos, so that I can see cool moments of the band."_**
 
 - As a fan, I want to view the list of photos, so that I see what they are up to lately.
   - [x] Get the latest photography from Instagram
@@ -69,18 +69,18 @@ To learn more about the needs of the band, please read the [Project Brief](ux/Pr
   - [x] Link each photo to the original source of the photo
   - [x] Open each photo in new tab
 
-***"As a fan, I want to play music video clips, so that I can see cool footage."***
+**_"As a fan, I want to play music video clips, so that I can see cool footage."_**
 
 - As a fan, I want to see the list of videos, so that I can pick one to watch.
   - [x] Get the YouTube embed code
   - [x] Should be flexible size (responsive)
-  - [ ] 
+  - [ ]
 - As a fan, I want to play the video, so that I can see and hear my favourite track.
   - [x] Open the video and play in full screen (default on mobile)
   - [x] Open the video and play in small container (desktop mode)
   - [ ] Test video playback on multiple devices
 
-***"As a fan, I want to follow the band, so that I can receive important updates fast."***
+**_"As a fan, I want to follow the band, so that I can receive important updates fast."_**
 
 - As a fan, I want to click on social media icon, so that I can follow the band.
   - [x] Get Font Awesome icons for each social media account
@@ -88,7 +88,7 @@ To learn more about the needs of the band, please read the [Project Brief](ux/Pr
   - [x] Each link should open in new tab
   - [ ] Test on multiple devices
 
-***"As a fan, I want to sign up for updates, so that I can receive important news about the music and events."***
+**_"As a fan, I want to sign up for updates, so that I can receive important news about the music and events."_**
 
 - As a fan, I want to enter my email address, so that I can get important updates or offers.
   - [ ] Display the email input field using HTML5
@@ -195,7 +195,9 @@ $ git clone https://github.com/viliusdev/ci-project-one.git
 $ cd ci-project-one
 $ npm install
 ```
+
 Make a CSS or HTML change and then run the command:
+
 ```
 $ npm run build:sass
 ```
@@ -205,10 +207,10 @@ The site can be deployed to any static site hosting provider.
 For developing locally, if you want to compile the CSS files instantly on the Sass source file save, please use the command:
 
 ```
-$ npm run watch:sass
+$ npm run watch:sass -w
 ```
 
-Node will wait for changes and once files is edited and saved it will generate CSS 
+Node will wait for changes and once files is edited and saved it will generate CSS
 
 I am using Netlify to deploy the site automatically from my GitHub repository every time I use 'git push' from my local development environment.
 

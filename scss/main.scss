@@ -23,10 +23,10 @@ body {
     background-size: auto 450px;
     background-size: 100%;
     background-position: 70% 76px;
+    background-attachment: fixed;
   }
 
-  @media screen and (min-width: 1200px) {
-    background-attachment: fixed;
+  @media screen and (min-width: 1380px) {
     background-position: center 76px;
   }
 }
@@ -39,8 +39,8 @@ body {
     background: rgba($colour-jacaranda, 0.9);
   }
 
-  @media screen and (min-width: 1600px) {
-    max-width: 1600px;
+  @media screen and (min-width: 1380px) {
+    max-width: 1380px;
     box-shadow: 0px -80px 60px 0px rgba($colour-tawny-port, 0.6);
   }
 }
