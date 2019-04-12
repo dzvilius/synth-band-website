@@ -8,7 +8,7 @@
     <meta name="description" content="Inspired by the 80s." />
 
     <link
-      href="https://fonts.googleapis.com/css?family=Racing+Sans+One|Share:400i|Roboto+Condensed|Josefin+Sans:400i"
+      href="https://fonts.googleapis.com/css?family=Racing+Sans+One%7CShare:400i%7CRoboto+Condensed%7CJosefin+Sans:400i"
       rel="stylesheet"
     />
 
@@ -29,11 +29,11 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <div class="NavbarTogglerIcon">
-            <div class="NavbarTogglerIcon__line"></div>
-            <div class="NavbarTogglerIcon__line"></div>
-            <div class="NavbarTogglerIcon__line"></div>
-          </div>
+          <span class="NavbarTogglerIcon">
+            <span class="NavbarTogglerIcon__line"></span>
+            <span class="NavbarTogglerIcon__line"></span>
+            <span class="NavbarTogglerIcon__line"></span>
+          </span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
@@ -66,7 +66,7 @@
       </header>
 
       <main class="SiteMain">
-        <section class="Music Music__soundcloud">
+        <div class="Music Music__soundcloud">
           <div class="container">
             <div class="Title">
               <h3 class="Title__heading">Listen</h3>
@@ -93,18 +93,15 @@
             >
             <iframe
               class="SoundCloud"
-              width="100%"
               height="450"
-              scrolling="no"
-              frameborder="no"
               allow="autoplay"
               src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/1267983&color=%23351a61&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
             ></iframe>
           </div>
-        </section>
+        </div>
         <!-- Music__soundcloud -->
 
-        <section class="Music Music__bandcamp">
+        <div class="Music Music__bandcamp">
           <div class="container Music__container">
             <div class="Title">
               <h3 class="Title__heading">Buy</h3>
@@ -136,22 +133,13 @@
                   <iframe
                     class="BandcampTrack"
                     src="https://bandcamp.com/EmbeddedPlayer/album=3783497687/size=large/bgcol=333333/linkcol=ffffff/minimal=true/transparent=true/"
-                    seamless
-                    ><a href="http://fm84.bandcamp.com/album/bend-break"
-                      >Bend &amp; Break by FM-84</a
-                    ></iframe
-                  >
+                  ></iframe>
                 </div>
                 <div class="col-sm">
                   <iframe
                     class="BandcampTrack"
                     src="https://bandcamp.com/EmbeddedPlayer/track=671650117/size=large/bgcol=333333/linkcol=ffffff/minimal=true/transparent=true/"
-                    seamless
-                    ><a
-                      href="http://fm84.bandcamp.com/track/never-stop-feat-ollie-wride"
-                      >Never Stop (feat. Ollie Wride) by FM-84</a
-                    ></iframe
-                  >
+                  ></iframe>
                 </div>
               </div>
 
@@ -160,30 +148,22 @@
                   <iframe
                     class="BandcampTrack"
                     src="https://bandcamp.com/EmbeddedPlayer/album=1470158167/size=large/bgcol=333333/linkcol=ffffff/minimal=true/transparent=true/"
-                    seamless
-                    ><a href="http://fm84.bandcamp.com/album/atlas"
-                      >Atlas by FM-84</a
-                    ></iframe
-                  >
+                  ></iframe>
                 </div>
                 <div class="col-sm">
                   <iframe
                     class="BandcampTrack"
                     src="https://bandcamp.com/EmbeddedPlayer/album=3020174017/size=large/bgcol=333333/linkcol=ffffff/minimal=true/transparent=true/"
-                    seamless
-                    ><a href="http://fm84.bandcamp.com/album/los-angeles-ep"
-                      >Los Angeles EP by FM-84</a
-                    ></iframe
-                  >
+                  ></iframe>
                 </div>
               </div>
             </div>
             <!-- BandcampTracks -->
           </div>
-        </section>
+        </div>
         <!-- Music__bandcamp -->
 
-        <section class="TourDates TourDates--inner TourDates--next">
+        <div class="TourDates TourDates--inner TourDates--next">
           <div class="TourDates__neons TourDates__neons--top">
             <div class="Neon Neon--colour-5 Neon--size-2"></div>
             <div class="Neon Neon--colour-4 Neon--size-2"></div>
@@ -212,10 +192,10 @@
             <header class="TourDateItem__header">
               <h4 class="TourDateItem__heading">Thu, May 2</h4>
             </header>
-            <section class="TourDateItem__content">
+            <div class="TourDateItem__content">
               <div>Troubadour</div>
               <div>Los Angels, CA</div>
-            </section>
+            </div>
             <a
               href="#"
               class="btn btn-outline-primary BuyButton"
@@ -236,10 +216,10 @@
             <div class="Neon Neon--colour-4 Neon--size-2"></div>
             <div class="Neon Neon--colour-5 Neon--size-2"></div>
           </div>
-        </section>
-        <!-- TourDates--next -->
+        </div>
+        <!-- TourDates -->
 
-        <section class="Follow">
+        <div class="Follow">
           <div class="Title">
             <h3 class="Title__heading">Follow</h3>
             <div class="Title__neons Title__neons--option-3 Title__neons--left">
@@ -301,7 +281,7 @@
               <i class="fab fa-facebook fa-lg"></i>
             </a>
           </div>
-        </section>
+        </div>
         <!-- Follow -->
       </main>
 

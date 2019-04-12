@@ -100,6 +100,18 @@ A list of all of the languages, frameworks and libraries used to construct this 
 - Font Awesome - https://fontawesome.com
 - Prettier - https://prettier.io
 
+## Testing
+
+Checked the site with W3C [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/) validators, and fixed the issues accordingly.
+
+
+
+I've used [Google Lighthouse](#) to run a series of audits against the page and generate a reports.
+
+- Before: 
+
+
+
 ## Deployment
 
 Before deploying the site to a hosting provider, you need to compile the "main.scss" file.

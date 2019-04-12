@@ -5874,6 +5874,7 @@ html {
   height: 3px;
   width: 28px;
   margin: 8px 0;
+  display: block;
   background: #fcfcfc;
   box-shadow: 3px 2px 2px #9f1550;
 }
@@ -6178,6 +6179,7 @@ html {
   color: #fbe274;
   letter-spacing: 1px;
   box-shadow: 2px 2px 6px 0px rgba(238, 51, 119, 0.8);
+  background: #180113;
   position: absolute;
   top: 0;
   right: 12px;
@@ -6251,6 +6253,8 @@ html {
   max-width: 320px;
   display: block;
   margin: 22px auto 0;
+  border: 0;
+  width: 100%;
 }
 
 @media screen and (min-width: 678px) {
@@ -6261,7 +6265,6 @@ html {
 
 @media screen and (min-width: 700px) {
   .SoundCloud {
-    width: 100%;
     max-width: 780px;
   }
 }
