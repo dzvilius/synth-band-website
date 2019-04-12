@@ -26,7 +26,7 @@ body {
     background-attachment: fixed;
   }
 
-  @media screen and (min-width: 1380px) {
+  @media screen and (min-width: 1200px) {
     background-position: center 76px;
   }
 }
@@ -39,8 +39,8 @@ body {
     background: rgba($colour-jacaranda, 0.9);
   }
 
-  @media screen and (min-width: 1380px) {
-    max-width: 1380px;
+  @media screen and (min-width: 1200px) {
+    max-width: 1200px;
     box-shadow: 0px -80px 60px 0px rgba($colour-tawny-port, 0.6);
   }
 }
