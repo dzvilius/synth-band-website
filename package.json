@@ -5,7 +5,8 @@
   "author": "Vilius Dzemyda <hello@viliusdzemyda.com>",
   "license": "MIT",
   "scripts": {
-    "sass": "node-sass --output-style expanded scss/main.scss css/main.css --watch"
+    "build:sass": "node-sass -r --output-style expanded scss/main.scss -o css && node-sass -r --output-style compact scss/bootstrap.scss -o css",
+    "watch:sass": "npm run build:sass && npm run build:sass -- -w"
   },
   "dependencies": {},
   "devDependencies": {

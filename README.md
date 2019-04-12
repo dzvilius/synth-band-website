@@ -102,15 +102,9 @@ A list of all of the languages, frameworks and libraries used to construct this 
 
 ## Testing
 
-Checked the site with W3C [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/) validators, and fixed the issues accordingly.
+Checked the site with W3C [HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fhopeful-bardeen-ef0513.netlify.com%2F) and [CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fhopeful-bardeen-ef0513.netlify.com%2Fcss%2Fmain.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) validators, and fixed the issues accordingly.
 
-
-
-I've used [Google Lighthouse](#) to run a series of audits against the page and generate a reports.
-
-- Before: 
-
-
+I've used [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) to run a series of audits against the page and generate a reports.
 
 ## Deployment
 
