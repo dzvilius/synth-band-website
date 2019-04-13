@@ -487,6 +487,8 @@ body {
   input {
     margin-top: 28px;
     margin-bottom: 38px;
+    border-color: $colour-violet-red;
+    box-shadow: 2px 3px 6px 0px $colour-jacarta;
   }
 
   @media screen and (min-width: 768px) {
