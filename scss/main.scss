@@ -364,7 +364,7 @@ body {
 }
 
 .TourDates--inner {
-  padding: 68px 0 0;
+  padding: 68px 0;
 
   .TourDateItem {
     margin-bottom: 28px;
@@ -454,6 +454,54 @@ body {
   position: absolute;
   top: 0;
   right: 12px;
+}
+
+/* NEWS SIGN UP ============================================================= */
+
+.NewsSignUp {
+  position: relative;
+  z-index: 1;
+  background: $colour-jacaranda;
+}
+
+.NewsSignUp__neons {
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.NewsSignUp__neons--top {
+  margin-bottom: 68px;
+}
+
+.NewsSignUp__neons--bottom {
+  margin-top: 28px;
+}
+
+.NewsSignUpForm {
+  max-width: 380px;
+  padding: 0 24px;
+  margin: 28px auto 68px auto;
+  text-align: center;
+
+  input {
+    margin-top: 28px;
+    margin-bottom: 38px;
+  }
+
+  @media screen and (min-width: 768px) {
+    max-width: 500px;
+  }
+}
+
+.SignUpButton {
+  font-weight: 700;
+  font-style: italic;
+  font-size: 14px;
+  color: $colour-marigold-yellow;
+  letter-spacing: 1px;
+  box-shadow: 2px 2px 6px 0px rgba($colour-violet-red, 0.8);
+  background: $colour-jacaranda;
 }
 
 /* PALM PHOTO ============================================================== */

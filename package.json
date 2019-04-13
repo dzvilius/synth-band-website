@@ -6,6 +6,7 @@
   "license": "MIT",
   "scripts": {
     "build:sass": "node-sass -r --output-style expanded scss/main.scss -o css",
+    "build:sass-bootstrap": "node-sass -r --output-style compact scss/bootstrap.scss -o css",
     "watch:sass": "npm run build:sass && npm run build:sass -- -w"
   },
   "dependencies": {},
