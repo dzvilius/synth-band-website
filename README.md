@@ -92,8 +92,8 @@ To learn more about the needs of the band, please read the [Project Brief](ux/Pr
 **_"As a fan, I want to sign up for updates, so that I can receive important news about the music and events."_**
 
 - As a fan, I want to enter my email address, so that I can get important updates or offers.
-  - [ ] Display an email input field
-  - [ ] Test for empty field or incorrect email address using HTML5 only
+  - [x] Display an email input field
+  - [x] Test for incorrect email address using HTML5 only
 
 ## Features
 
