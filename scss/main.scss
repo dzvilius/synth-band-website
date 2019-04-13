@@ -26,7 +26,7 @@ body {
     background-attachment: fixed;
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1380px) {
     background-position: center 76px;
   }
 }
@@ -39,8 +39,8 @@ body {
     background: rgba($colour-jacaranda, 0.9);
   }
 
-  @media screen and (min-width: 1200px) {
-    max-width: 1200px;
+  @media screen and (min-width: 1380px) {
+    max-width: 1380px;
     box-shadow: 0px -80px 60px 0px rgba($colour-tawny-port, 0.6);
   }
 }
@@ -68,7 +68,7 @@ body {
 
 .Logo {
   font-family: $heading-font-family-2;
-  font-size: 42px;
+  font-size: 40px;
   padding: 0 6px;
   font-style: italic;
   color: $colour-alabaster;
@@ -81,6 +81,10 @@ body {
   &:hover {
     text-decoration: none;
     color: $colour-alabaster;
+  }
+
+  @media screen and (min-width: 992px) {
+    font-size: 60px;
   }
 }
 
@@ -101,8 +105,8 @@ body {
     text-align: right;
 
     @media screen and (min-width: 992px) {
-      margin-right: 48px;
-      text-align: center;
+      font-size: 18px;
+      padding-right: 24px;
     }
   }
 
@@ -111,20 +115,28 @@ body {
   }
 }
 
-.nav-item {
-  .nav-link {
-    color: $colour-alabaster;
-    padding: 0.5rem 1rem;
+.navbar-expand-md .navbar-nav .nav-link {
+  color: $colour-alabaster;
+  padding-right: 1em;
 
-    &:hover {
-      color: $colour-violet-red;
-    }
+  &:hover {
+    color: $colour-violet-red;
   }
 
   &.active {
     .nav-link {
       color: $colour-violet-red;
     }
+  }
+
+  @media screen and (min-width: 768px) {
+    padding-right: 1em;
+    padding-left: 1em;
+  }
+
+  @media screen and (min-width: 992px) {
+    padding-right: 1.2em;
+    padding-left: 1.2em;
   }
 }
 
@@ -153,6 +165,10 @@ body {
   position: relative;
   max-width: 340px;
   margin: 0 auto;
+
+  @media screen and (min-width: 992px) {
+    max-width: 440px;
+  }
 }
 
 .Title__heading {
@@ -167,6 +183,10 @@ body {
   margin: 12px 0;
   position: relative;
   z-index: 2;
+
+  @media screen and (min-width: 992px) {
+    font-size: 34px;
+  }
 }
 
 .Title__neons {
@@ -175,10 +195,10 @@ body {
   margin-top: -9px;
   height: 18px;
   z-index: 1;
+}
 
-  .Neon {
-    position: relative;
-  }
+.Neon {
+  position: relative;
 }
 
 .Title__neons--option-1 {
@@ -372,7 +392,7 @@ body {
 
 .TourDateItem {
   max-width: 340px;
-  margin: 68px auto;
+  margin: 58px auto 28px;
   position: relative;
   min-height: 100px;
 
@@ -486,6 +506,7 @@ body {
   height: 280px;
   margin: 0 auto 48px;
   display: block;
+  box-shadow: 4px 4px 8px rgba($colour-tawny-port, 0.8);
 
   @media screen and (min-width: 678px) {
     width: 320px;
@@ -504,6 +525,7 @@ body {
   margin: 22px auto 0;
   border: 0;
   width: 100%;
+  box-shadow: 4px 4px 8px rgba($colour-tawny-port, 0.8);
 
   @media screen and (min-width: 678px) {
     max-width: 460px;
@@ -518,6 +540,7 @@ body {
 
 .Video {
   padding: 0;
+  background: $colour-jacaranda;
 }
 
 .Video--inner {
@@ -544,8 +567,7 @@ body {
 
 .YouTube--inner {
   margin-bottom: 24px;
-  margin-right: 12px;
-  margin-left: 12px;
+  box-shadow: 4px 4px 8px rgba($colour-tawny-port, 0.8);
 }
 
 .Video__neons {
@@ -572,7 +594,7 @@ body {
 
 .InstagramPhoto {
   margin-bottom: 48px;
-  box-shadow: 3px 3px 8px rgba($colour-tawny-port, 0.5);
+  box-shadow: 4px 4px 8px rgba($colour-tawny-port, 0.8);
 }
 
 /* BIOGRAPHY ================================================================ */

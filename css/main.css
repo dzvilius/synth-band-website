@@ -19,7 +19,7 @@ html {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1380px) {
   body {
     background-position: center 76px;
   }
@@ -36,9 +36,9 @@ html {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1380px) {
   .SiteContainer {
-    max-width: 1200px;
+    max-width: 1380px;
     box-shadow: 0px -80px 60px 0px rgba(104, 28, 103, 0.6);
   }
 }
@@ -65,7 +65,7 @@ html {
 /* LOGO ===================================================================== */
 .Logo {
   font-family: "Share", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 42px;
+  font-size: 40px;
   padding: 0 6px;
   font-style: italic;
   color: #fcfcfc;
@@ -75,6 +75,12 @@ html {
 .Logo:hover {
   text-decoration: none;
   color: #fcfcfc;
+}
+
+@media screen and (min-width: 992px) {
+  .Logo {
+    font-size: 60px;
+  }
 }
 
 /* SITE NAV ================================================================= */
@@ -96,8 +102,8 @@ html {
 
 @media screen and (min-width: 992px) {
   .SiteNav .navbar-nav {
-    margin-right: 48px;
-    text-align: center;
+    font-size: 18px;
+    padding-right: 24px;
   }
 }
 
@@ -105,17 +111,31 @@ html {
   outline: none;
 }
 
-.nav-item .nav-link {
+.navbar-expand-md .navbar-nav .nav-link {
   color: #fcfcfc;
-  padding: 0.5rem 1rem;
+  padding-right: 1em;
 }
 
-.nav-item .nav-link:hover {
+.navbar-expand-md .navbar-nav .nav-link:hover {
   color: #ee3377;
 }
 
-.nav-item.active .nav-link {
+.navbar-expand-md .navbar-nav .nav-link.active .nav-link {
   color: #ee3377;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 1em;
+    padding-left: 1em;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 1.2em;
+    padding-left: 1.2em;
+  }
 }
 
 .NavbarTogglerIcon__line {
@@ -146,6 +166,12 @@ html {
   margin: 0 auto;
 }
 
+@media screen and (min-width: 992px) {
+  .Title {
+    max-width: 440px;
+  }
+}
+
 .Title__heading {
   font-family: "Racing Sans One", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-shadow: 2px 2px 4px #9f1550;
@@ -160,6 +186,12 @@ html {
   z-index: 2;
 }
 
+@media screen and (min-width: 992px) {
+  .Title__heading {
+    font-size: 34px;
+  }
+}
+
 .Title__neons {
   position: absolute;
   top: 50%;
@@ -168,7 +200,7 @@ html {
   z-index: 1;
 }
 
-.Title__neons .Neon {
+.Neon {
   position: relative;
 }
 
@@ -362,7 +394,7 @@ html {
 
 .TourDateItem {
   max-width: 340px;
-  margin: 68px auto;
+  margin: 58px auto 28px;
   position: relative;
   min-height: 100px;
 }
@@ -481,6 +513,7 @@ html {
   height: 280px;
   margin: 0 auto 48px;
   display: block;
+  box-shadow: 4px 4px 8px rgba(104, 28, 103, 0.8);
 }
 
 @media screen and (min-width: 678px) {
@@ -503,6 +536,7 @@ html {
   margin: 22px auto 0;
   border: 0;
   width: 100%;
+  box-shadow: 4px 4px 8px rgba(104, 28, 103, 0.8);
 }
 
 @media screen and (min-width: 678px) {
@@ -520,6 +554,7 @@ html {
 /* VIDEO ==================================================================== */
 .Video {
   padding: 0;
+  background: #180113;
 }
 
 .Video--inner {
@@ -546,8 +581,7 @@ html {
 
 .YouTube--inner {
   margin-bottom: 24px;
-  margin-right: 12px;
-  margin-left: 12px;
+  box-shadow: 4px 4px 8px rgba(104, 28, 103, 0.8);
 }
 
 .Video__neons:last-child {
@@ -571,7 +605,7 @@ html {
 
 .InstagramPhoto {
   margin-bottom: 48px;
-  box-shadow: 3px 3px 8px rgba(104, 28, 103, 0.5);
+  box-shadow: 4px 4px 8px rgba(104, 28, 103, 0.8);
 }
 
 /* BIOGRAPHY ================================================================ */
