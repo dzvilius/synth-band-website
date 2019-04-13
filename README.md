@@ -4,6 +4,8 @@ A static (front-end only) website for an 80s inspired cinematic synth-pop band f
 
 To see working version please go to: [Live Preview](https://hopeful-bardeen-ef0513.netlify.com/).
 
+![alt text](ux/v1/Screenshot.png)
+
 ## UX
 
 The cinematic 80s inspired band website for the fans of synth-pop music, so they can listen to the latest tracks, view video clips, and check tour dates, buy tickets and sign up for updates.
