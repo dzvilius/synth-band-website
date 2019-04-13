@@ -27,44 +27,44 @@ To learn more about the needs of the band, please read the [Project Brief](ux/Pr
 **_"As a fan, I want to listen to band music, so that I can hear the latest tracks."_**
 
 - As a fan, I want to open the album, so that I can start playing the track.
-  - [x] Get the 'Bandcamp' widget embed code
+  - [x] Bandcamp embed code
   - [x] Should be flexible size (responsive)
-  - [ ] Test for play back on multiple devices
+  - [ ] Test playback on multiple devices
 - As a fan, I want to view the list of albums, so that I can choose which one to listen.
-  - [x] Get the 'Bandcamp' widget embed code
-  - [x] Create a list of widget items using Bootstrap grid css
+  - [x] Bandcamp embed code
+  - [x] List of items using Bootstrap grid
   - [x] Should be flexible size (responsive)
-  - [ ] Test layout and widget sizes on multiple devices
+  - [ ] Test layout and size on multiple devices
 
 **_"As a fan, I want to purchase music tracks, so that I can support my favourite band."_**
 
 - As a fan, I want to open the album, so that I can click on the Buy Now link.
-  - [x] Get the 'Bandcamp' widget embed code
+  - [x] Bandcamp embed code
   - [x] Should be flexible size (responsive)
-  - [x] Make sure it links to and opens the correct album on the Bandcamp site
-  - [ ] Test purchase process on multiple devices
+  - [x] Buy link opens the album on Bandcamp site
+  - [ ] Test buying process on multiple devices
 
 **_"As a fan, I want to check tour dates, so that I know when they are coming to town."_**
 
 - As a fan, I want to view the list of tour dates, so that I can pick a date.
   - [x] Custom HTML & CSS
-  - [x] Display the tour date and venue
+  - [x] Display the tour date and the venue
   - [x] Mobile layout option
-  - [x] Tablet and Up layout option
+  - [x] Tablet and larger layout option
   - [ ] Test layout on multiple devices
 - As a fan, I want to buy tickets to the event, so that I can see my favourite band.
-  - [x] Display the button with 'Buy Ticket' text
-  - [x] Open new tab on button click
-  - [x] Custom button CSS styling
-  - [x] The button should link to '#' for demo purpose
+  - [x] Display the button with 'Buy' text
+  - [x] On button click open a new tab
+  - [x] Custom button styling
+  - [x] The button should link to #
   - [ ] Test the Buy button on multiple devices
 
 **_"As a fan, I want to view photos, so that I can see cool moments of the band."_**
 
 - As a fan, I want to view the list of photos, so that I see what they are up to lately.
-  - [x] Get the latest photography from Instagram
+  - [x] Latest photography from Instagram
   - [x] Grid of photos using Bootstrap
-  - [ ] Check layout and responsiveness on multiple devices
+  - [ ] Check the layout and responsiveness on multiple devices
 - As a fan, I want to open the photo, so that I can see more details.
   - [x] Link each photo to the original source of the photo
   - [x] Open each photo in new tab
@@ -72,26 +72,26 @@ To learn more about the needs of the band, please read the [Project Brief](ux/Pr
 **_"As a fan, I want to play music video clips, so that I can see cool footage."_**
 
 - As a fan, I want to see the list of videos, so that I can pick one to watch.
-  - [x] Get the YouTube embed code
+  - [x] YouTube embed code
   - [x] Should be flexible size (responsive)
 - As a fan, I want to play the video, so that I can see and hear my favourite track.
   - [x] Open the video and play in full screen (default on mobile)
   - [x] Open the video and play in small container (desktop mode)
-  - [ ] Test video playback on multiple devices
+  - [ ] Test the video playback on multiple devices
 
 **_"As a fan, I want to follow the band, so that I can receive important updates fast."_**
 
 - As a fan, I want to click on social media icon, so that I can follow the band.
-  - [x] Get Font Awesome icons for each social media account
+  - [x] Font Awesome icons for each social media account
   - [x] Link each icon to the corresponding account
-  - [x] Each link should open in new tab
+  - [x] Each link should open a new tab
   - [ ] Test on multiple devices
 
 **_"As a fan, I want to sign up for updates, so that I can receive important news about the music and events."_**
 
 - As a fan, I want to enter my email address, so that I can get important updates or offers.
-  - [ ] Display the email input field using HTML5
-  - [ ] Test for empty field or incorrect email address
+  - [ ] Display an email input field
+  - [ ] Test for empty field or incorrect email address using HTML5
 
 ## Features
 
@@ -101,7 +101,7 @@ To learn more about the needs of the band, please read the [Project Brief](ux/Pr
 - Responsive navigation
 - Events listing and ticket ordering
 - Photo gallery from Instagram
-- Bandcamp music widgets
+- Bandcamp music player
 - SoundCloud music player
 - YouTube video player
 - Social media follow links
@@ -124,7 +124,7 @@ _Small:_ [Home](ux/v1/Wireframes/Small/Home.png), [Tour Dates](ux/v1/Wireframes/
 
 _Medium:_ [Home](ux/v1/Wireframes/Medium/Home.png), [Tour Dates](ux/v1/Wireframes/Medium/Tour_Dates.png), [Music](ux/v1/Wireframes/Medium/Music.png), [Videos](ux/v1/Wireframes/Medium/Videos.png), [Photos](ux/v1/Wireframes/Medium/Photos.png), [Biography](ux/v1/Wireframes/Medium/Biography.png), [All in One](ux/v1/Wireframes/Medium/Wireframe_Medium_v1.pdf)
 
-_Desktop:_ *Same as tablet view*
+_Desktop:_ *Slightly tweaked tablet view*
 
 ## Surface
 
@@ -150,7 +150,7 @@ _Small:_ [Home](ux/v1/Designs/Small/Home.jpg), [Tour Dates](ux/v1/Designs/Small/
 
 _Medium:_ [Home](ux/v1/Designs/Medium/Home.jpg), [Tour Dates](ux/v1/Designs/Medium/Tour_Dates.jpg), [Music](ux/v1/Designs/Medium/Music.jpg), [Videos](ux/v1/Designs/Medium/Videos.jpg), [Photos](ux/v1/Designs/Medium/Photos.jpg), [Biography](ux/v1/Designs/Medium/Biography.jpg)
 
-_Desktop:_ *Same as tablet view*
+_Desktop:_ *Slightly tweaked tablet view*
 
 ## Tech
 
@@ -191,7 +191,7 @@ The site is deployed to Netlify. To see a working version please go to: [Live Pr
 
 To run project locally you do not need any additional software, however if you want to make changes to the Sass files you need to download and install Node from: https://nodejs.org/en/download/.
 
-After follow the steps:
+After the Node installation please follow the steps bellow:
 
 ```
 $ git clone
@@ -207,7 +207,7 @@ $ npm run build:sass
 
 The site can be deployed to any static site hosting provider.
 
-I am using Netlify to deploy automatically each time I push to GitHub.
+I am using Netlify to automatically deploy the site each time I push to GitHub repository.
 
 ## Credits
 
