@@ -19,7 +19,7 @@ html {
   }
 }
 
-@media screen and (min-width: 1380px) {
+@media screen and (min-width: 1600px) {
   body {
     background-position: center 76px;
   }
@@ -36,9 +36,9 @@ html {
   }
 }
 
-@media screen and (min-width: 1380px) {
+@media screen and (min-width: 1600px) {
   .SiteContainer {
-    max-width: 1380px;
+    max-width: 1600px;
     box-shadow: 0px -80px 60px 0px rgba(104, 28, 103, 0.6);
   }
 }
@@ -513,6 +513,7 @@ html {
   height: 280px;
   margin: 0 auto 48px;
   display: block;
+  background: #180113;
   box-shadow: 4px 4px 8px rgba(104, 28, 103, 0.8);
 }
 
@@ -536,6 +537,7 @@ html {
   margin: 22px auto 0;
   border: 0;
   width: 100%;
+  background: #180113;
   box-shadow: 4px 4px 8px rgba(104, 28, 103, 0.8);
 }
 

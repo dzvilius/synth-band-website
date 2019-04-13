@@ -29,12 +29,12 @@ To learn more about the needs of the band, please read the [Project Brief](ux/Pr
 - As a fan, I want to open the album, so that I can start playing the track.
   - [x] Bandcamp embed code
   - [x] Should be flexible size (responsive)
-  - [ ] Test playback on multiple devices
+  - [x] Test playback on multiple devices
 - As a fan, I want to view the list of albums, so that I can choose which one to listen.
   - [x] Bandcamp embed code
   - [x] List of items using Bootstrap grid
   - [x] Should be flexible size (responsive)
-  - [ ] Test layout and size on multiple devices
+  - [x] Test layout and size on multiple devices
 
 **_"As a fan, I want to purchase music tracks, so that I can support my favourite band."_**
 
@@ -42,7 +42,7 @@ To learn more about the needs of the band, please read the [Project Brief](ux/Pr
   - [x] Bandcamp embed code
   - [x] Should be flexible size (responsive)
   - [x] Buy link opens the album on Bandcamp site
-  - [ ] Test buying process on multiple devices
+  - [x] Test buying process on multiple devices
 
 **_"As a fan, I want to check tour dates, so that I know when they are coming to town."_**
 
@@ -51,20 +51,20 @@ To learn more about the needs of the band, please read the [Project Brief](ux/Pr
   - [x] Display the tour date and the venue
   - [x] Mobile layout option
   - [x] Tablet and larger layout option
-  - [ ] Test layout on multiple devices
+  - [x] Test layout on multiple devices
 - As a fan, I want to buy tickets to the event, so that I can see my favourite band.
   - [x] Display the button with 'Buy' text
   - [x] On button click open a new tab
   - [x] Custom button styling
   - [x] The button should link to #
-  - [ ] Test the Buy button on multiple devices
+  - [x] Test the Buy button on multiple devices
 
 **_"As a fan, I want to view photos, so that I can see cool moments of the band."_**
 
 - As a fan, I want to view the list of photos, so that I see what they are up to lately.
   - [x] Latest photography from Instagram
   - [x] Grid of photos using Bootstrap
-  - [ ] Check the layout and responsiveness on multiple devices
+  - [x] Check the layout and responsiveness on multiple devices
 - As a fan, I want to open the photo, so that I can see more details.
   - [x] Link each photo to the original source of the photo
   - [x] Open each photo in new tab
@@ -77,7 +77,7 @@ To learn more about the needs of the band, please read the [Project Brief](ux/Pr
 - As a fan, I want to play the video, so that I can see and hear my favourite track.
   - [x] Open the video and play in full screen (default on mobile)
   - [x] Open the video and play in small container (desktop mode)
-  - [ ] Test the video playback on multiple devices
+  - [x] Test the video playback on multiple devices
 
 **_"As a fan, I want to follow the band, so that I can receive important updates fast."_**
 
@@ -85,13 +85,13 @@ To learn more about the needs of the band, please read the [Project Brief](ux/Pr
   - [x] Font Awesome icons for each social media account
   - [x] Link each icon to the corresponding account
   - [x] Each link should open a new tab
-  - [ ] Test on multiple devices
+  - [x] Test on multiple devices
 
 **_"As a fan, I want to sign up for updates, so that I can receive important news about the music and events."_**
 
 - As a fan, I want to enter my email address, so that I can get important updates or offers.
   - [ ] Display an email input field
-  - [ ] Test for empty field or incorrect email address using HTML5
+  - [ ] Test for empty field or incorrect email address using HTML5 only
 
 ## Features
 
@@ -183,7 +183,24 @@ The site was checked with W3C [HTML](https://validator.w3.org/nu/?doc=https%3A%2
 
 Run a series of audits against the page using [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) and generated the performance reports. Please view the initial [Report](ux/v1/Reports/Lighthouse_Report_Before.png) and the [Report](ux/v1/Reports/Lighthouse_Report_After.png) after some of the optimisations were completed. Based on the audit suggestions I have improved the page loading speed from 1.7s to 1.5s and optimised the accessibility.
 
-Browser testing is next...
+### Browsers
+
+Tested on the following browsers:
+
+**Physical devices**
+
+- Chrome 73 / MacOS High Sierra 10 / iMac
+- Firefox 66 / MacOS High Sierra 10 / iMac
+- Safari 12 / MacOS High Sierra 10 / iMac
+- Chrome 70 / Linux Mint 19 / Asus Notebook
+- Chrome 73 / iOS 12/ iPhone 6s
+- Safari 12 / iOS 12 / iPhone 6s
+
+**Virtual devices**
+
+- Chrome / Android 6 / Samsung Galaxy S7
+- Chrome / Android 4.4 / Galaxy Tab 4 10.1
+- Default Browser / Windows Phone 8.1 / Nokia Lumia 930
 
 ## Deployment
 

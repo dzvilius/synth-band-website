@@ -26,7 +26,7 @@ body {
     background-attachment: fixed;
   }
 
-  @media screen and (min-width: 1380px) {
+  @media screen and (min-width: 1600px) {
     background-position: center 76px;
   }
 }
@@ -39,8 +39,8 @@ body {
     background: rgba($colour-jacaranda, 0.9);
   }
 
-  @media screen and (min-width: 1380px) {
-    max-width: 1380px;
+  @media screen and (min-width: 1600px) {
+    max-width: 1600px;
     box-shadow: 0px -80px 60px 0px rgba($colour-tawny-port, 0.6);
   }
 }
@@ -506,6 +506,7 @@ body {
   height: 280px;
   margin: 0 auto 48px;
   display: block;
+  background: $colour-jacaranda;
   box-shadow: 4px 4px 8px rgba($colour-tawny-port, 0.8);
 
   @media screen and (min-width: 678px) {
@@ -525,6 +526,7 @@ body {
   margin: 22px auto 0;
   border: 0;
   width: 100%;
+  background: $colour-jacaranda;
   box-shadow: 4px 4px 8px rgba($colour-tawny-port, 0.8);
 
   @media screen and (min-width: 678px) {
