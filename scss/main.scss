@@ -702,3 +702,29 @@ body {
     text-shadow: 2px 2px 2px $colour-disco-one;
   }
 }
+
+/* BACK TO TOP ============================================================== */
+
+#backToTop {
+  display: block;
+  width: 50px;
+  padding: 6px 0;
+  text-align: center;
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  transition: opacity 0.5s, visibility 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+  color: $colour-alabaster;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &.show {
+    opacity: 1;
+    visibility: visible;
+  }
+}

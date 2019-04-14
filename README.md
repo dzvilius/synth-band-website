@@ -108,11 +108,11 @@ To learn more about the needs of the band, please read the [Project Brief](ux/Pr
 - YouTube video player
 - Social media follow links
 - Newsletter sign up
+- Back to Top
 
 _Features to be implemented in the future:_
 
 - Instagram feed
-- Back to Top
 
 ## Structure
 
@@ -163,6 +163,7 @@ A list of all of the languages, frameworks and libraries used to construct this 
   - Site Navigation and layout for albums and photos
 - jQuery - https://jquery.com/
   - Enable the Navbar toggler
+  - Back to Top
 - Google Fonts - https://fonts.google.com
   - Support non-standard fonts on user browser
 - Node - https://nodejs.org
@@ -218,7 +219,7 @@ Tested on the following browsers:
 - Chrome / Android 4.4 / Galaxy Tab 4 10.1
 - Default Browser / Windows Phone 8.1 / Nokia Lumia 930
 
-The emulator testing was done using a free account at <https://www.browserstack.com/>.
+The emulator testing was done using a free account at https://www.browserstack.com/.
 
 ## Deployment
 
@@ -289,6 +290,10 @@ Help for customising Bootstrap with Sass:
 - https://itnext.io/setting-up-a-sass-build-process-aa9fd92fa585
 - https://getbootstrap.com/docs/4.3/getting-started/theming/
 - https://uxplanet.org/how-to-customize-bootstrap-b8078a011203
+
+Code snippets:
+
+- https://codepen.io/matthewcain/pen/ZepbeR
 
 Other useful resources:
 
