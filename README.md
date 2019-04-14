@@ -8,7 +8,7 @@ To see working version please go to: [Live Preview](https://hopeful-bardeen-ef05
 
 ## UX
 
-The cinematic 80s inspired band website for the fans of synth-pop music, so they can listen to the latest tracks, view video clips, and check tour dates, buy tickets and sign up for updates.
+The 80s style inspired band website for the fans of synth-pop music, so they can listen to the audio tracks, watch video clips, check tour dates, buy tickets and sign up for the updates.
 
 To learn more about the needs of the band, please read the [Project Brief](ux/Project_Brief.md) document.
 
@@ -93,7 +93,7 @@ To learn more about the needs of the band, please read the [Project Brief](ux/Pr
 
 - As a fan, I want to enter my email address, so that I can get important updates or offers.
   - [x] Display an email input field
-  - [x] Test for incorrect email address using HTML5 only
+  - [x] Test for incorrect email address using HTML5
 
 ## Features
 
@@ -116,7 +116,7 @@ _Features to be implemented in the future:_
 
 ## Structure
 
-To learn more about the information architecture and the flow of this application, please view the [Mindmap](ux/v1/Mindmap_v1.png).
+To learn about the information architecture and the flow of this application, please view the [Mindmap](ux/v1/Mindmap_v1.png).
 
 ## Skeleton
 
