@@ -2,7 +2,7 @@
 
 A static (front-end only) website for an 80s inspired cinematic synth-pop band from California.
 
-To see working version please go to: [Live Preview](https://hopeful-bardeen-ef0513.netlify.com/).
+To see working version please go to: [Live Preview](https://hopeful-bardeen-ef0513.netlify.com/)
 
 ![alt text](ux/v1/Screenshot_v1.jpg)
 
@@ -107,12 +107,12 @@ To learn more about the needs of the band, please read the [Project Brief](ux/Pr
 - SoundCloud music player
 - YouTube video player
 - Social media follow links
+- Newsletter sign up
 
 _Features to be implemented in the future:_
 
-- Newsletter sign up
 - Instagram feed
-- Visual effects using CSS3
+- Back to Top
 
 ## Structure
 
@@ -181,9 +181,23 @@ A list of all of the languages, frameworks and libraries used to construct this 
 
 ## Testing
 
-The site was checked with W3C [HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fhopeful-bardeen-ef0513.netlify.com%2F) and [CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fhopeful-bardeen-ef0513.netlify.com%2Fcss%2Fmain.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) validators, and the issues where fixed accordingly.
+### UX
 
-Run a series of audits against the page using [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) and generated the performance reports. Please view the initial [Report](ux/v1/Reports/Lighthouse_Report_Before.png) and the [Report](ux/v1/Reports/Lighthouse_Report_After.png) after some of the optimisations were completed. Based on the audit suggestions I have improved the page loading speed from 1.7s to 1.5s and optimised the accessibility.
+The user needs checklist:
+
+- [x] User is able to see the list of tracks and listen to them.
+- [x] User is able to pick an album and purchase it on Bandcamp.
+- [x] User is able to see the list of upcoming tour dates.
+- [x] User is able to see the list of videos and watch them.
+- [x] User is able to see the list of photos.
+- [x] User is able to follow the band on social networks.
+- [x] User is able to sign up for email updates.
+
+### Code
+
+The site was checked with W3C [HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fhopeful-bardeen-ef0513.netlify.com%2F) and [CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fhopeful-bardeen-ef0513.netlify.com%2Fcss%2Fmain.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) validators, and the issues where fixed accordingly. Removed an obsolete properties from the iframe embed code snippets.
+
+Run a series of audits against the page using [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) and generated the performance reports. Please view the initial [Report](ux/v1/Reports/Lighthouse_Report_Before.png) and the [Report](ux/v1/Reports/Lighthouse_Report_After.png) after some of the optimisations were completed. Based on the suggestions I have improved the page loading speed from 1.7s to 1.5s and optimised the accessibility.
 
 ### Browsers
 
@@ -198,11 +212,13 @@ Tested on the following browsers:
 - Chrome 73 / iOS 12/ iPhone 6s
 - Safari 12 / iOS 12 / iPhone 6s
 
-**Virtual devices**
+**Emulators**
 
 - Chrome / Android 6 / Samsung Galaxy S7
 - Chrome / Android 4.4 / Galaxy Tab 4 10.1
 - Default Browser / Windows Phone 8.1 / Nokia Lumia 930
+
+The emulator testing was done using a free account at <https://www.browserstack.com/>.
 
 ## Deployment
 
@@ -224,7 +240,7 @@ Update the Sass files and run the following command:
 $ npm run build:sass
 ```
 
-If you want to watch for Sass changes use the following command:
+If you want to generate CSS files each time you edit Sass source files, please use the following command:
 
 ```
 $ npm run watch:sass
@@ -232,7 +248,9 @@ $ npm run watch:sass
 
 The site can be deployed to any static site hosting provider.
 
-I am using Netlify to automatically deploy the site each time I push to GitHub repository.
+I am using Netlify because it can automatically deploy the site each time I push my commits to GitHub repository.
+
+To deploy the site to [Netlify](https://www.netlify.com/) you need to sign up for an account first. Choose the 'New site from Git' option, then pick your online git hosting service provider and grant a permission to access your repository. And it's done! Now each time you commit to GitHub or your preferred service Netlify will automatically deploy the site.
 
 ## Credits
 
@@ -266,10 +284,13 @@ Inspiration for the style of this site:
 
 - https://www.goodfon.com/wallpaper/synth-retrowave-synthwave-fon-new-retro-wave-sintveiv-ret-16.html
 
-Help customising Bootstrap with Sass:
+Help for customising Bootstrap with Sass:
 
 - https://itnext.io/setting-up-a-sass-build-process-aa9fd92fa585
-
 - https://getbootstrap.com/docs/4.3/getting-started/theming/
-
 - https://uxplanet.org/how-to-customize-bootstrap-b8078a011203
+
+Other useful resources:
+
+- https://medium.freecodecamp.org/the-complete-guide-to-scss-sass-30053c266b23
+- https://stormotion.io/blog/how-to-write-a-good-user-story-with-examples-templates/#what-is-a-user-story
