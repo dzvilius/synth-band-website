@@ -4,7 +4,7 @@ A static (front-end only) website for an 80s inspired cinematic synth-pop band f
 
 To see working version please go to: [Live Preview](https://hopeful-bardeen-ef0513.netlify.com/)
 
-![alt text](ux/v1/Screenshot_v1.jpg)
+![alt text](ux/v1/Screenshot_v1.png)
 
 ## UX
 
