@@ -2,7 +2,7 @@
 
 A static (front-end only) website for an 80s inspired cinematic synth-pop band from California.
 
-[Live Preview](https://hopeful-bardeen-ef0513.netlify.com/)
+[Live Preview](https://synth-band-website.pages.dev/)
 
 ![alt text](ux/v1/Screenshot_v1.png)
 
@@ -196,7 +196,7 @@ The user needs checklist:
 
 ### Code
 
-The site was checked with W3C [HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fhopeful-bardeen-ef0513.netlify.com%2F) and [CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fhopeful-bardeen-ef0513.netlify.com%2Fcss%2Fmain.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) validators, and the issues where fixed accordingly. Removed an obsolete properties from the iframe embed code snippets.
+The site was checked with W3C
 
 Run a series of audits against the page using [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) and generated the performance reports. Please view the initial [Report](ux/v1/Reports/Lighthouse_Report_Before.png) and the [Report](ux/v1/Reports/Lighthouse_Report_After.png) after some of the optimisations were completed. Based on the suggestions I have improved the page loading speed from 1.7s to 1.5s and optimised the accessibility.
 
@@ -223,7 +223,7 @@ The emulator testing was done using a free account at https://www.browserstack.c
 
 ## Deployment
 
-The site is deployed to Netlify. To see a working version please go to: [Live Preview](https://hopeful-bardeen-ef0513.netlify.com/).
+The site is deployed to Cloudflare. To see a working version please go to: [Live Preview](https://synth-band-website.pages.dev/).
 
 To run project locally you do not need any additional software, however if you want to make changes to the Sass files you need to download and install Node from: https://nodejs.org/en/download/.
 
@@ -249,9 +249,9 @@ $ npm run watch:sass
 
 The site can be deployed to any static site hosting provider.
 
-I am using Netlify because it can automatically deploy the site each time I push my commits to GitHub repository.
+I am using Cloudflare because it can automatically deploy the site each time I push my commits to GitHub repository.
 
-To deploy the site to [Netlify](https://www.netlify.com/) you need to sign up for an account first. Choose the 'New site from Git' option, then pick your online git hosting service provider and grant a permission to access your repository. And it's done! Now each time you commit to GitHub or your preferred service Netlify will automatically deploy the site.
+To deploy the site to [Cloudflare](https://www.cloudflare.com/) you need to sign up for an account first. Choose the 'New site from Git' option, then pick your online git hosting service provider and grant a permission to access your repository. And it's done! Now each time you commit to GitHub or your preferred service Cloudflare will automatically deploy the site.
 
 ## Credits
 
